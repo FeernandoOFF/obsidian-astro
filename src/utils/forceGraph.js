@@ -1,4 +1,5 @@
 import * as d3 from 'd3';
+import { attr } from 'svelte/internal';
 // Copyright 2021 Observable, Inc.
 // Released under the ISC license.
 // https://observablehq.com/@d3/force-directed-graph
@@ -14,14 +15,14 @@ export function ForceGraph(
     nodeTitle, // given d in nodes, a title string
     nodeFill = 'currentColor', // node stroke fill (if not using a group color encoding)
     nodeStroke = '#fff', // node stroke color
-    nodeStrokeWidth = 1.5, // node stroke width, in pixels
+    nodeStrokeWidth = 0.4, // node stroke width, in pixels
     nodeStrokeOpacity = 1, // node stroke opacity
-    nodeRadius = 5, // node radius, in pixels
+    nodeRadius = 4, // node radius, in pixels
     nodeStrength,
     linkSource = ({ source }) => source, // given d in links, returns a node identifier string
     linkTarget = ({ target }) => target, // given d in links, returns a node identifier string
     linkStroke = '#999', // link stroke color
-    linkStrokeOpacity = 0.6, // link stroke opacity
+    linkStrokeOpacity = 0.3, // link stroke opacity
     linkStrokeWidth = 1.5, // given d in links, returns a stroke width in pixels
     linkStrokeLinecap = 'round', // link stroke linecap
     linkStrength,
@@ -82,6 +83,7 @@ export function ForceGraph(
     .append('g')
     .attr('stroke', typeof linkStroke !== 'function' ? linkStroke : null)
     .attr('stroke-opacity', linkStrokeOpacity)
+
     .attr(
       'stroke-width',
       typeof linkStrokeWidth !== 'function' ? linkStrokeWidth : null
@@ -99,14 +101,27 @@ export function ForceGraph(
     .attr('stroke-width', nodeStrokeWidth)
     .selectAll('circle')
     .data(nodes)
-    .join('circle')
-    .attr('r', nodeRadius)
-    .call(drag(simulation));
+    .join('g') //
+    .attr('class', 'node')
+    .style('cursor', 'pointer')
+    .call(drag(simulation))
+    .on('mouseover', handleHover);
+
+  node.append('circle').attr('r', nodeRadius);
 
   if (W) link.attr('stroke-width', ({ index: i }) => W[i]);
   if (L) link.attr('stroke', ({ index: i }) => L[i]);
-  if (G) node.attr('fill', ({ index: i }) => color(G[i]));
-  if (T) node.append('title').text(({ index: i }) => T[i]);
+  if (G)
+    node.selectChildren('circle').attr('fill', ({ index: i }) => color(G[i]));
+  if (T)
+    // TODO
+    node
+      .append('text')
+      .text(({ index: i }) => T[i])
+      .style('stroke', '#5b5b5b')
+      .style('fill', '#5b5b5b')
+      .style('font-size', '0.6em')
+      .style('font-weight', '100');
   if (invalidation != null) invalidation.then(() => simulation.stop());
 
   function intern(value) {
@@ -122,12 +137,23 @@ export function ForceGraph(
       .attr('x2', (d) => d.target.x)
       .attr('y2', (d) => d.target.y);
 
-    node.attr('cx', (d) => d.x).attr('cy', (d) => d.y);
+    // set position for circle and label
+    node
+      .selectChildren('circle')
+      .attr('cx', (d) => d.x)
+      .attr('cy', (d) => d.y);
+    node
+      .selectChildren('text')
+      .attr('dx', (d) => d.x)
+      .attr('dy', (d) => d.y);
   }
 
+  function handleHover(e) {
+    // e.target.style.transform = 'scale(1.2)';
+  }
   function handleZoom(e) {
-    console.log('zoom');
-    d3.selectAll('svg g').attr('transform', e.transform);
+    // exept nodes
+    d3.selectAll('svg g:not(.node)').attr('transform', e.transform);
   }
   function drag(simulation) {
     function dragstarted(event) {

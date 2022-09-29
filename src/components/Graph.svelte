@@ -21,5 +21,9 @@
 </script>
 
 <section>
-  <div id="network" class="" />
+  <div
+    id="network"
+    class=" border border-gray-100 rounded-md"
+    style="width: {width}px; height: {height}px"
+  />
 </section>
