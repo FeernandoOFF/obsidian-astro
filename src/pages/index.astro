@@ -1,29 +1,27 @@
 ---
-// Component Imports
-import MainHead from '../components/MainHead.astro';
-import Nav from '../components/Nav.astro';
-import Footer from '../components/Footer.astro';
 import Graph from '../components/Graph.svelte';
-// Data Fetching: List all Markdown posts in the repo.
-const projects = await Astro.glob('./project/**/*.md');
-const featuredProject = projects[0];
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
+import MainLayout from '../layouts/MainLayout.astro';
 ---
 
-<html lang="en">
-  <head>
-    <MainHead
-      title="Jeanine White: Personal Site"
-      description="Jeanine White: Developer, Speaker, and Writer..."
-    />
-  </head>
-  <body>
-    <Nav />
-    <Graph client:visible height={400} width={400} />
-    <header class="hero"></header>
-    <main class="wrapper"></main>
-    <Footer />
-  </body>
-</html>
+<MainLayout>
+  <h2>Title</h2>
+  <p>last updated</p>
+  <div class="flex">
+    <p>#tag</p>
+  </div>
+  <section class="my-4">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta magni
+    reiciendis eveniet laboriosam odio facilis eum quas necessitatibus totam
+    nihil praesentium, veniam molestiae illo corporis consectetur eaque? Rem,
+    reiciendis ducimus? MDX
+    <h2>TODO:</h2>
+    <ul>
+      <li>Refactor</li>
+      <li>Config file</li>
+      <li>Obsidian Integration</li>
+      <li>Template system</li>
+      <li>Grapth Improvement</li>
+    </ul>
+  </section>
+  <Graph client:visible height={250} width={350} />
+</MainLayout>

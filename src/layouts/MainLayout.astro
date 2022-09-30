@@ -1,0 +1,23 @@
+---
+import Nav from '../components/layout/Nav.astro';
+import Footer from '../components/layout/Footer.astro';
+import { SEO } from 'astro-seo';
+
+const props = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <SEO
+      title="A Very Descriptive Title"
+      description="A heavily optimized description full of well-researched keywords."
+    />
+  </head>
+  <body>
+    <main class="max-w-3xl mx-auto min-h-screen">
+      <Nav />
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

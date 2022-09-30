@@ -10,6 +10,7 @@ export function ForceGraph(
   },
   {
     nodeId = (d) => d.id, // given d in nodes, returns a unique identifier (string)
+    activeNode,
     nodeGroup, // given d in nodes, returns an (ordinal) value for color
     nodeGroups, // an array of ordinal values representing the node groups
     nodeTitle, // given d in nodes, a title string
@@ -17,7 +18,7 @@ export function ForceGraph(
     nodeStroke = '#fff', // node stroke color
     nodeStrokeWidth = 0.4, // node stroke width, in pixels
     nodeStrokeOpacity = 1, // node stroke opacity
-    nodeRadius = 4, // node radius, in pixels
+    nodeRadius = 5, // node radius, in pixels
     nodeStrength,
     linkSource = ({ source }) => source, // given d in links, returns a node identifier string
     linkTarget = ({ target }) => target, // given d in links, returns a node identifier string
@@ -25,7 +26,7 @@ export function ForceGraph(
     linkStrokeOpacity = 0.3, // link stroke opacity
     linkStrokeWidth = 1.5, // given d in links, returns a stroke width in pixels
     linkStrokeLinecap = 'round', // link stroke linecap
-    linkStrength,
+    linkStrength = 0.02,
     colors = d3.schemeTableau10, // an array of color strings, for the node groups
     width = 640, // outer width, in pixels
     height = 400, // outer height, in pixels
@@ -103,6 +104,7 @@ export function ForceGraph(
     .data(nodes)
     .join('g') //
     .attr('class', 'node')
+    .attr('id', (i) => i.id)
     .style('cursor', 'pointer')
     .call(drag(simulation))
     .on('mouseover', handleHover);
@@ -120,7 +122,7 @@ export function ForceGraph(
       .text(({ index: i }) => T[i])
       .style('stroke', '#5b5b5b')
       .style('fill', '#5b5b5b')
-      .style('font-size', '0.6em')
+      .style('font-size', '0.65em')
       .style('font-weight', '100');
   if (invalidation != null) invalidation.then(() => simulation.stop());
 
@@ -146,6 +148,7 @@ export function ForceGraph(
       .selectChildren('text')
       .attr('dx', (d) => d.x)
       .attr('dy', (d) => d.y);
+    // center active link
   }
 
   function handleHover(e) {

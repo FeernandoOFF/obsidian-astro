@@ -12,6 +12,7 @@
       nodeGroup: (d) => d.group,
       nodeTitle: (d) => `${d.id}\n${d.group}`,
       linkStrokeWidth: (l) => Math.sqrt(l.value),
+      activeNode: 'Napoleon',
       width,
       height,
     });
