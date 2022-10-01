@@ -1,0 +1,19 @@
+---
+import MarkdownIt from 'markdown-it';
+import wikiLinks from 'markdown-it-wikilinks';
+
+const wikiOptions = {
+  baseURL: '/Zettelkasten',
+  uriSuffix: '/',
+  htmlAttributes: {
+    class: 'text-red-600',
+  },
+};
+
+const md = new MarkdownIt().use(wikiLinks(wikiOptions));
+let result = md.render(
+  "### Me If you don't know who am I, well I'm Fernando Obregon, I'm a software developer, currently living in Dublin, Ireland. You can stay and read if you're interested about [Technology](Zettelkasten/tech.md) , [History](Zettelkasten/history.md) , [Productivity](Zettelkasten/productivity.md) or [[Minimalism]] ### My goal My goal is to provide easy information for people to develop their own things (AKA [[DIY in Tech]]) so they're aware of; - [[How the internet works]] - [[How your devices work]] - [[Make your life easier by removing friction]] - [[Live your life with purpose]] ### Any news?  Currently I'm learning [[astro]] and some of [[iOS]] development "
+);
+---
+
+<div set:html={result}></div>
