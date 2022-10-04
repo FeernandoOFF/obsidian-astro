@@ -1,3 +1,4 @@
+import path from 'path';
 import * as obsidianLinks from '../../metadata.json';
 
 export function pagePath(pages: { file }[], filters: string[]): any[] {
@@ -14,9 +15,8 @@ export function pagePath(pages: { file }[], filters: string[]): any[] {
 
 function fileParser(file) {
   // index.md / Zettelkasten/the big book.md
-  let fileName = file.split(
-    '/Users/fernandooff/development/personal/projects/astro-obsidian/content/'
-  )[1];
+
+  let fileName = file.split(path.resolve('./content') + '/')[1];
 
   let parsedName = urlParser(fileName);
   parsedName = parsedName?.replace(' ', '-');
