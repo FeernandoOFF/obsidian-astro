@@ -22,7 +22,7 @@ export async function getStaticPaths() {
   const pages = filteredPosts.map((page) => ({
     page: page.parsedUrl == 'index' ? undefined : page.parsedUrl,
     title: page.frontmatter.title,
-    text: page.content,
+    text: page.rawContent(),
     links: { ...findInGraph(page.unparsedURL) },
   }));
 
@@ -34,6 +34,8 @@ export async function getStaticPaths() {
   });
 }
 
+const { title, text, links } = Astro.props;
+
 const wikiOptions = {
   baseURL: '/Zettelkasten',
   uriSuffix: '/',
@@ -43,21 +45,12 @@ const wikiOptions = {
 };
 
 const md = new MarkdownIt().use(wikiLinks(wikiOptions)).use(markdownItAttrs);
-let result = md.render(`
-# My Great Heading {.text-blue-400}
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-`);
-
-const { title, text, links } = Astro.props;
+let result = md.render(text);
 ---
 
 <MainLayout>
   <h1>{title}</h1>
-  <p set:html={result}></p>
+  <div class="bg-gray-500" set:html={result}></div>
   <div class="flex flex-col">
     {
       links.outGoingLinks?.map((l) => (
@@ -77,7 +70,7 @@ const { title, text, links } = Astro.props;
           class={`${l.relativePath ? 'text-red-400' : 'text-gray-400'}`}
           href={'/garden/' + urlParser(l.relativePath)}
         >
-          {l.link}
+          {l.relativePath}
         </a>
       ))
     }

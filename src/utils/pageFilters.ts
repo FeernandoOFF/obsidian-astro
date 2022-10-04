@@ -8,6 +8,7 @@ export function pagePath(pages: { file }[], filters: string[]): any[] {
     ...page,
     ...fileParser(page.file),
   }));
+
   return filteredPages;
 }
 
