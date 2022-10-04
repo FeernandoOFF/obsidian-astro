@@ -19,7 +19,7 @@ function fileParser(file) {
   )[1];
 
   let parsedName = urlParser(fileName);
-  parsedName = parsedName.replace(' ', '-');
+  parsedName = parsedName?.replace(' ', '-');
 
   return { parsedUrl: parsedName, unparsedURL: fileName };
 }
