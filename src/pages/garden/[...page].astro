@@ -1,0 +1,85 @@
+---
+import MarkdownIt from 'markdown-it';
+import wikiLinks from 'markdown-it-wikilinks';
+import MainLayout from '../../layouts/MainLayout.astro';
+import markdownItAttrs from 'markdown-it-attrs';
+
+import { findInGraph, pagePath, urlParser } from '../../utils/pageFilters';
+
+export async function getStaticPaths() {
+  const posts = await Astro.glob('../../../content/**/*.md');
+
+  //   TODO: CONFIG FILE
+  const filteredPosts = pagePath(posts, [
+    'Journal/',
+    'excalidraw.md',
+    'Files/',
+    'Drawings/',
+    'Dawings/',
+    'Templates/',
+  ]);
+
+  const pages = filteredPosts.map((page) => ({
+    page: page.parsedUrl == 'index' ? undefined : page.parsedUrl,
+    title: page.frontmatter.title,
+    text: page.content,
+    links: { ...findInGraph(page.unparsedURL) },
+  }));
+
+  return pages.map(({ page, title, text, links }) => {
+    return {
+      params: { page },
+      props: { title, text, links },
+    };
+  });
+}
+
+const wikiOptions = {
+  baseURL: '/Zettelkasten',
+  uriSuffix: '/',
+  htmlAttributes: {
+    class: 'text-red-600',
+  },
+};
+
+const md = new MarkdownIt().use(wikiLinks(wikiOptions)).use(markdownItAttrs);
+let result = md.render(`
+# My Great Heading {.text-blue-400}
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+`);
+
+const { title, text, links } = Astro.props;
+---
+
+<MainLayout>
+  <h1>{title}</h1>
+  <p set:html={result}></p>
+  <div class="flex flex-col">
+    {
+      links.outGoingLinks?.map((l) => (
+        <a
+          class={`${l.relativePath ? 'text-green-400' : 'text-gray-400'}`}
+          href={'/garden/' + urlParser(l.relativePath)}
+        >
+          {l.link}
+        </a>
+      ))
+    }
+  </div>
+  <div class="flex flex-col">
+    {
+      links.backLinks?.map((l) => (
+        <a
+          class={`${l.relativePath ? 'text-red-400' : 'text-gray-400'}`}
+          href={'/garden/' + urlParser(l.relativePath)}
+        >
+          {l.link}
+        </a>
+      ))
+    }
+  </div>
+</MainLayout>

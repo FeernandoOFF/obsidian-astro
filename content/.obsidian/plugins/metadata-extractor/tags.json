@@ -1,0 +1,185 @@
+[
+  {
+    "tag": "moc",
+    "tagCount": 11,
+    "relativePaths": [
+      "Zettelkasten/tech.md",
+      "Zettelkasten/productivity.md",
+      "Zettelkasten/journal.md",
+      "Zettelkasten/history.md",
+      "Zettelkasten/Minimalism.md",
+      "Templates/MOC.md"
+    ]
+  },
+  {
+    "tag": "protocols",
+    "tagCount": 4,
+    "relativePaths": [
+      "Zettelkasten/protocol.md",
+      "Zettelkasten/UDP.md",
+      "Zettelkasten/TCP.md",
+      "Zettelkasten/HTTP.md"
+    ]
+  },
+  {
+    "tag": "tech",
+    "tagCount": 5,
+    "relativePaths": [
+      "Zettelkasten/protocol.md",
+      "Zettelkasten/UDP.md",
+      "Zettelkasten/TCP.md",
+      "Zettelkasten/Slowloris DDOS Attach.md",
+      "Zettelkasten/HTTP.md"
+    ]
+  },
+  {
+    "tag": "idea",
+    "tagCount": 33,
+    "relativePaths": [
+      "Zettelkasten/protocol.md",
+      "Zettelkasten/Why we don't have friends.md",
+      "Zettelkasten/Web development.md",
+      "Zettelkasten/UDP.md",
+      "Zettelkasten/Tenses.md",
+      "Zettelkasten/TCP.md",
+      "Zettelkasten/Slowloris DDOS Attach.md",
+      "Zettelkasten/Singleton.md",
+      "Zettelkasten/Pronoun.md",
+      "Zettelkasten/Productivity with Obsidian.md",
+      "Zettelkasten/Preposition.md",
+      "Zettelkasten/Poetry material.md",
+      "Zettelkasten/Parts of Speech.md",
+      "Zettelkasten/Odyssey.md",
+      "Zettelkasten/Noun.md",
+      "Zettelkasten/Note taking Archetypes.md",
+      "Zettelkasten/My problem with school.md",
+      "Zettelkasten/My Productivity System.md",
+      "Zettelkasten/My IPhone Configuration.md",
+      "Zettelkasten/Live your life with purpose.md",
+      "Zettelkasten/Italy's history.md",
+      "Zettelkasten/Ideal Weight.md",
+      "Zettelkasten/How to make friends.md",
+      "Zettelkasten/HTTP.md",
+      "Zettelkasten/Friends.md",
+      "Zettelkasten/First Indo-European Languages.md",
+      "Zettelkasten/Define with kind of person you're.md",
+      "Zettelkasten/Collocations.md",
+      "Zettelkasten/Apple Shortcuts.md",
+      "Templates/Core Zettle Idea.md"
+    ]
+  },
+  {
+    "tag": "quote",
+    "tagCount": 10,
+    "relativePaths": [
+      "Zettelkasten/not all those who wonder are lost.md",
+      "Zettelkasten/The benefits of a system don’t increase with his complexity.md",
+      "Zettelkasten/People are more than their appearance.md",
+      "Templates/Quote Template.md",
+      "Quotes/There's no such thing as Diciplines. Everything is the Universe.md",
+      "Quotes/In life the goal is not to learn as much as possible, is to do as much as possible.md",
+      "Quotes/If you only focus on connections that are already made you'll never create something new.md"
+    ]
+  },
+  {
+    "tag": "social",
+    "tagCount": 6,
+    "relativePaths": [
+      "Zettelkasten/Why we don't have friends.md",
+      "Zettelkasten/How to make friends.md",
+      "Zettelkasten/Friends.md"
+    ]
+  },
+  {
+    "tag": "web",
+    "tagCount": 2,
+    "relativePaths": [
+      "Zettelkasten/Web development.md",
+      "Zettelkasten/Slowloris DDOS Attach.md"
+    ]
+  },
+  {
+    "tag": "development",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/Web development.md"
+    ]
+  },
+  {
+    "tag": "basics",
+    "tagCount": 2,
+    "relativePaths": [
+      "Zettelkasten/UDP.md",
+      "Zettelkasten/TCP.md"
+    ]
+  },
+  {
+    "tag": "security",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/Slowloris DDOS Attach.md"
+    ]
+  },
+  {
+    "tag": "todo",
+    "tagCount": 4,
+    "relativePaths": [
+      "Zettelkasten/Slowloris DDOS Attach.md",
+      "Zettelkasten/Note taking Archetypes.md",
+      "Zettelkasten/My problem with school.md",
+      "Zettelkasten/HTTP.md"
+    ]
+  },
+  {
+    "tag": "poetry",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/Poetry material.md"
+    ]
+  },
+  {
+    "tag": "minimalism",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/Minimalism.md"
+    ]
+  },
+  {
+    "tag": "history",
+    "tagCount": 2,
+    "relativePaths": [
+      "Zettelkasten/Italy's history.md",
+      "Zettelkasten/First Indo-European Languages.md"
+    ]
+  },
+  {
+    "tag": "testtag",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/Italy's history.md"
+    ]
+  },
+  {
+    "tag": "timeline",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/First Indo-European Languages.md"
+    ]
+  },
+  {
+    "tag": "europe",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/First Indo-European Languages.md"
+    ]
+  },
+  {
+    "tag": "excalidraw",
+    "tagCount": 3,
+    "relativePaths": [
+      "Drawings/tech Wednesday 24-08-22.excalidraw.md",
+      "Dawings/tech Tuesday 06-09-22.excalidraw.md",
+      "Dawings/tech Monday 29-08-22.excalidraw.md"
+    ]
+  }
+]

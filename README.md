@@ -5,10 +5,18 @@ This project is inspired by [jzhao quartz project](https://quartz.jzhao.xyz/)
 
 ## Current features
 
-- Node-Graph
 - `content` folder where you can drop your obsidian vault
+- Node-Graph
 - DarkMode
 - Full Text search
+
+## Roadmap
+
+- [x] Dropvault on folder & AutoImport notes
+- [ ] FolderPrefix
+- [ ] Get Linking working
+- [ ] Graph-Linking
+- [ ] Custom elements
 
 ## Get started
 

@@ -18,6 +18,7 @@
     "d3": "^7.6.1",
     "daisyui": "^2.31.0",
     "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.4",
     "markdown-it-wikilinks": "^1.2.0",
     "svelte": "^3.46.4",
     "tailwindcss": "^3.0.24"

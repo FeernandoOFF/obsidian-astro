@@ -1,0 +1,33 @@
+{
+  "spellcheck": true,
+  "promptDelete": false,
+  "vimMode": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Zettelkasten",
+  "attachmentFolderPath": "Files",
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true,
+  "mobileToolbarCommands": [
+    "editor:insert-wikilink",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:toggle-bullet-list",
+    "editor:toggle-blockquote",
+    "editor:toggle-checklist-status",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:redo",
+    "editor:undo",
+    "editor:toggle-code",
+    "editor:attach-file",
+    "editor:insert-embed",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:insert-link",
+    "editor:toggle-numbered-list",
+    "editor:toggle-keyboard",
+    "editor:configure-toolbar"
+  ]
+}

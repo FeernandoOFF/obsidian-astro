@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "1062db55dd39fb27",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e417e24bda179f0",
+        "type": "leaf",
+        "state": {
+          "type": "excalidraw",
+          "state": {
+            "file": "Dawings/tech Monday 29-08-22.excalidraw.md"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "513082e77a24fe4e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a20f279e0999fb80",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "c39103c7050cdf11",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1ae357d994c59a32",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "2550e84f78040d5c",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b6ccb4333389b381",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fa4dad73769fcd68",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "dfbdf79385138357",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Dawings/tech Monday 29-08-22.excalidraw.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "f7d1adf6acf8ee1b",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Dawings/tech Monday 29-08-22.excalidraw.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "711dfabdca22ff3d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Dawings/tech Monday 29-08-22.excalidraw.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "0e417e24bda179f0",
+  "lastOpenFiles": [
+    "Journal/21-Sep-2022.md",
+    "Journal/19-Sep-2022.md",
+    "Journal/12-Sep-2022.md",
+    "Journal/07-Sep-2022.md",
+    "Journal/06-Sep-2022.md",
+    "Journal/02-Sep-2022.md",
+    "Journal/01-Sep-2022.md",
+    "Zettelkasten/Define with kind of person you're.md",
+    "Zettelkasten/How to make friends.md",
+    "Zettelkasten/Friends.md"
+  ]
+}

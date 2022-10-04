@@ -1,0 +1,103 @@
+{
+  "folders": [
+    {
+      "name": "",
+      "relativePath": "/"
+    },
+    {
+      "name": "Files",
+      "relativePath": "Files"
+    },
+    {
+      "name": "Drawings",
+      "relativePath": "Drawings"
+    },
+    {
+      "name": "Quotes",
+      "relativePath": "Quotes"
+    },
+    {
+      "name": "Zettelkasten",
+      "relativePath": "Zettelkasten"
+    },
+    {
+      "name": "Dawings",
+      "relativePath": "Dawings"
+    },
+    {
+      "name": "Templates",
+      "relativePath": "Templates"
+    },
+    {
+      "name": "Journal",
+      "relativePath": "Journal"
+    }
+  ],
+  "nonMdFiles": [
+    {
+      "name": "Pasted Image 20220824151852_170.png",
+      "basename": "Pasted Image 20220824151852_170",
+      "relativePath": "Files/Pasted Image 20220824151852_170.png"
+    },
+    {
+      "name": "Pasted Image 20220824151912_226.png",
+      "basename": "Pasted Image 20220824151912_226",
+      "relativePath": "Files/Pasted Image 20220824151912_226.png"
+    },
+    {
+      "name": "Pasted image 20220824153650.png",
+      "basename": "Pasted image 20220824153650",
+      "relativePath": "Files/Pasted image 20220824153650.png"
+    },
+    {
+      "name": "Pasted image 20220829222218.png",
+      "basename": "Pasted image 20220829222218",
+      "relativePath": "Files/Pasted image 20220829222218.png"
+    },
+    {
+      "name": "Pasted image 20220824153914.png",
+      "basename": "Pasted image 20220824153914",
+      "relativePath": "Files/Pasted image 20220824153914.png"
+    },
+    {
+      "name": "Screenshot 2022-07-30 at 00.50.24.png",
+      "basename": "Screenshot 2022-07-30 at 00.50.24",
+      "relativePath": "Files/Screenshot 2022-07-30 at 00.50.24.png"
+    },
+    {
+      "name": "Pasted image 20220829222230.png",
+      "basename": "Pasted image 20220829222230",
+      "relativePath": "Files/Pasted image 20220829222230.png"
+    },
+    {
+      "name": "Screenshot 2022-07-29 at 23.52.23.png",
+      "basename": "Screenshot 2022-07-29 at 23.52.23",
+      "relativePath": "Files/Screenshot 2022-07-29 at 23.52.23.png"
+    },
+    {
+      "name": "Pasted image 20220829221028.png",
+      "basename": "Pasted image 20220829221028",
+      "relativePath": "Files/Pasted image 20220829221028.png"
+    },
+    {
+      "name": "Screenshot 2022-07-30 at 00.56.00.png",
+      "basename": "Screenshot 2022-07-30 at 00.56.00",
+      "relativePath": "Files/Screenshot 2022-07-30 at 00.56.00.png"
+    },
+    {
+      "name": "Screenshot 2022-08-09 at 23.28.48.png",
+      "basename": "Screenshot 2022-08-09 at 23.28.48",
+      "relativePath": "Files/Screenshot 2022-08-09 at 23.28.48.png"
+    },
+    {
+      "name": "Screenshot 2022-08-09 at 23.34.46.png",
+      "basename": "Screenshot 2022-08-09 at 23.34.46",
+      "relativePath": "Files/Screenshot 2022-08-09 at 23.34.46.png"
+    },
+    {
+      "name": "romanEmpire.png",
+      "basename": "romanEmpire",
+      "relativePath": "Files/romanEmpire.png"
+    }
+  ]
+}

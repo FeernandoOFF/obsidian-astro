@@ -1,0 +1,11 @@
+{
+  "tagPath": "/Users/fernandooff/Desktop/notes.json",
+  "metadataPath": "/Users/fernandooff/Desktop/notes2.json",
+  "allExceptMdPath": "",
+  "tagFile": "tags.json",
+  "metadataFile": "metadata.json",
+  "allExceptMdFile": "allExceptMd.json",
+  "writingFrequency": "0",
+  "writeFilesOnLaunch": true,
+  "consoleLog": true
+}
