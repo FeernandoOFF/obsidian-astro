@@ -1,6 +1,5 @@
 [
   "obsidian-excalidraw-plugin",
-  "sliding-panes-obsidian",
   "obsidian-admonition",
   "calendar",
   "cm-editor-syntax-highlight-obsidian",
@@ -13,5 +12,9 @@
   "obsidian-map-view",
   "obsidian-timelines",
   "obsidian-git",
-  "metadata-extractor"
+  "metadata-extractor",
+  "nldates-obsidian",
+  "obsidian-checklist-plugin",
+  "obsidian-kindle-plugin",
+  "heatmap-calendar"
 ]

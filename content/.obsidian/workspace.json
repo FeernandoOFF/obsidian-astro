@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "1062db55dd39fb27",
+    "type": "split",
+    "children": [
+      {
+        "id": "810c27d805525246",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d01234e410b18cbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Obsidian.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ec66eda4a092f0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Obsidian relations.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea4bf837b147dffe",
+    "type": "split",
+    "children": [
+      {
+        "id": "97f5e2110f9d9427",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc9e9a6b114547cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b1d77e2081d73166",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fbb45bcf91963b6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f32aacce69a406b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bbb0e4cfa81d315",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f67066870d971e9b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "97f90f770288e58c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Zettelkasten/Obsidian relations.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7c1bc2afbbe542e0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Zettelkasten/Obsidian relations.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f49157d1c98aa849",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8eecd9b024e19c93",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Zettelkasten/Obsidian relations.md"
+              }
+            }
+          },
+          {
+            "id": "4eea3b818307458f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf793f818f02a374",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "7ec66eda4a092f0e",
+  "lastOpenFiles": [
+    "_index.md",
+    "Zettelkasten/tech.md",
+    "Zettelkasten/Obsidian relations.md",
+    "Zettelkasten/Obsidian.md",
+    "Quotes/The wrong way to organize information is by where you found it. The correct way is by the location you will use it.md",
+    "Zettelkasten/My obsidian setup.md",
+    "Templates/Core Zettle Idea.md",
+    "Zettelkasten/My Productivity System.md",
+    "Zettelkasten/Productivity with Obsidian.md",
+    "Zettelkasten/productivity.md"
+  ]
+}

@@ -1,7 +1,9 @@
 ---
 date: {{date: DD-MM-YYYY}}
+tags:
+	- journal
 ---
-tags: [[journal]]
+
 
 << [[{{date: DD-MM-YYYY}}]] || [[{{date: DD-MM-YYYY}}]] >>
 

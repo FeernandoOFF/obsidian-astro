@@ -1,9 +1,9 @@
 {
-  "tagPath": "/Users/fernandooff/Desktop/notes.json",
-  "metadataPath": "/Users/fernandooff/Desktop/notes2.json",
+  "tagPath": "/Users/fernandooff/development/personal/projects/astro-obsidian/tags.json",
+  "metadataPath": "/Users/fernandooff/development/personal/projects/astro-obsidian/metadata.json",
   "allExceptMdPath": "",
   "tagFile": "tags.json",
-  "metadataFile": "metadata.json",
+  "metadataFile": "",
   "allExceptMdFile": "allExceptMd.json",
   "writingFrequency": "0",
   "writeFilesOnLaunch": true,

@@ -1,0 +1,15 @@
+{
+  "pinned": [
+    "obsidian-git:push2",
+    "obsidian-git:commit",
+    "slides:start",
+    "obsidian-admonition:insert-callout",
+    "audio-recorder:start",
+    "audio-recorder:stop",
+    "obsidian-mind-map:app:markmap-preview",
+    "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout",
+    "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed",
+    "obsidian-excalidraw-plugin:search-text",
+    "obsidian-map-view:insert-geolink"
+  ]
+}

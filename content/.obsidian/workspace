@@ -4,12 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0e417e24bda179f0",
+        "id": "b6a1809248613397",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "Dawings/tech Monday 29-08-22.excalidraw.md"
+            "file": "Journal/15-Oct-2022.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
           }
         }
       }
@@ -17,11 +20,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "513082e77a24fe4e",
+    "id": "395701423860b940",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "a20f279e0999fb80",
+        "id": "7cbdf78c6106a9cc",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -29,7 +32,7 @@
         }
       },
       {
-        "id": "c39103c7050cdf11",
+        "id": "633ccbb70a324eca",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -44,7 +47,7 @@
         }
       },
       {
-        "id": "1ae357d994c59a32",
+        "id": "274f40b765295853",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -55,7 +58,7 @@
         }
       },
       {
-        "id": "2550e84f78040d5c",
+        "id": "98a7732ccbdb09a2",
         "type": "leaf",
         "state": {
           "type": "starred",
@@ -66,11 +69,11 @@
     "currentTab": 0
   },
   "right": {
-    "id": "b6ccb4333389b381",
+    "id": "c997dfc5d7c8e4e3",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "fa4dad73769fcd68",
+        "id": "e636ec822bb177ab",
         "type": "leaf",
         "state": {
           "type": "calendar",
@@ -78,12 +81,12 @@
         }
       },
       {
-        "id": "dfbdf79385138357",
+        "id": "f3d7b2fb09200fe1",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Dawings/tech Monday 29-08-22.excalidraw.md",
+            "file": "Journal/15-Oct-2022.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -95,41 +98,41 @@
         }
       },
       {
-        "id": "f7d1adf6acf8ee1b",
+        "id": "a386b927c361e46c",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Dawings/tech Monday 29-08-22.excalidraw.md",
+            "file": "Journal/15-Oct-2022.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "711dfabdca22ff3d",
+        "id": "e608804c313ad356",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Dawings/tech Monday 29-08-22.excalidraw.md"
+            "file": "Journal/15-Oct-2022.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "0e417e24bda179f0",
+  "active": "b6a1809248613397",
   "lastOpenFiles": [
-    "Journal/21-Sep-2022.md",
-    "Journal/19-Sep-2022.md",
-    "Journal/12-Sep-2022.md",
-    "Journal/07-Sep-2022.md",
-    "Journal/06-Sep-2022.md",
-    "Journal/02-Sep-2022.md",
-    "Journal/01-Sep-2022.md",
-    "Zettelkasten/Define with kind of person you're.md",
+    "Journal/15-Oct-2022.md",
+    "Zettelkasten/Swift.md",
+    "Zettelkasten/Programming on storyboard.md",
+    "Zettelkasten/XCode.md",
+    "Zettelkasten/iOS.md",
+    "Zettelkasten/Conversation topics.md",
     "Zettelkasten/How to make friends.md",
-    "Zettelkasten/Friends.md"
+    "Journal/12-Oct-2022.md",
+    "Zettelkasten/How does an app work.md",
+    "index.md"
   ]
 }

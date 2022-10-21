@@ -8,7 +8,8 @@ Status: #MOC
 Tags:
 
 ## What is productivity for me?
-dsadasa
+Productivity is using our time intentionally 
+
 
 ## [My Productivity System](My%20Productivity%20System.md)
 

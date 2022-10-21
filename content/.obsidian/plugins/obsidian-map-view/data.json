@@ -48,7 +48,7 @@
   ],
   "zoomOnGoFromNote": 15,
   "autoZoom": true,
-  "markerClickBehavior": "samePane",
+  "markerClickBehavior": "secondPane",
   "newNoteNameFormat": "Location added on {{date:YYYY-MM-DD}}T{{date:HH-mm}}",
   "showNoteNamePopup": true,
   "showNotePreview": true,

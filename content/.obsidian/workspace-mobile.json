@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "1062db55dd39fb27",
+    "type": "split",
+    "children": [
+      {
+        "id": "f86a50d0810be03a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6a1809248613397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kindle/Carnegie-How to Win Friends and Influence People.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "395701423860b940",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7cbdf78c6106a9cc",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "633ccbb70a324eca",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "How to win fri",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "274f40b765295853",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "98a7732ccbdb09a2",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "c997dfc5d7c8e4e3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e636ec822bb177ab",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "f3d7b2fb09200fe1",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Kindle/Carnegie-How to Win Friends and Influence People.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a386b927c361e46c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Kindle/Carnegie-How to Win Friends and Influence People.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e608804c313ad356",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Kindle/Carnegie-How to Win Friends and Influence People.md"
+          }
+        }
+      },
+      {
+        "id": "df04793bf1c1da40",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "b6a1809248613397",
+  "lastOpenFiles": [
+    "Zettelkasten/Poetry material.md",
+    "Journal/15-Oct-2022.md",
+    "Zettelkasten/Swift.md",
+    "Zettelkasten/Programming on storyboard.md",
+    "Zettelkasten/XCode.md",
+    "Zettelkasten/iOS.md",
+    "Zettelkasten/Conversation topics.md",
+    "Zettelkasten/How to make friends.md",
+    "Journal/12-Oct-2022.md",
+    "Zettelkasten/How does an app work.md"
+  ]
+}

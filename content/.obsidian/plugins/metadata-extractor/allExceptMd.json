@@ -5,35 +5,44 @@
       "relativePath": "/"
     },
     {
-      "name": "Files",
-      "relativePath": "Files"
+      "name": "Dawings",
+      "relativePath": "Dawings"
     },
     {
       "name": "Drawings",
       "relativePath": "Drawings"
     },
     {
+      "name": "Files",
+      "relativePath": "Files"
+    },
+    {
+      "name": "Journal",
+      "relativePath": "Journal"
+    },
+    {
+      "name": "Kindle",
+      "relativePath": "Kindle"
+    },
+    {
       "name": "Quotes",
       "relativePath": "Quotes"
-    },
-    {
-      "name": "Zettelkasten",
-      "relativePath": "Zettelkasten"
-    },
-    {
-      "name": "Dawings",
-      "relativePath": "Dawings"
     },
     {
       "name": "Templates",
       "relativePath": "Templates"
     },
     {
-      "name": "Journal",
-      "relativePath": "Journal"
+      "name": "Zettelkasten",
+      "relativePath": "Zettelkasten"
     }
   ],
   "nonMdFiles": [
+    {
+      "name": "Map of Xcode 12.pdf",
+      "basename": "Map of Xcode 12",
+      "relativePath": "Files/Map of Xcode 12.pdf"
+    },
     {
       "name": "Pasted Image 20220824151852_170.png",
       "basename": "Pasted Image 20220824151852_170",
@@ -50,19 +59,19 @@
       "relativePath": "Files/Pasted image 20220824153650.png"
     },
     {
-      "name": "Pasted image 20220829222218.png",
-      "basename": "Pasted image 20220829222218",
-      "relativePath": "Files/Pasted image 20220829222218.png"
-    },
-    {
       "name": "Pasted image 20220824153914.png",
       "basename": "Pasted image 20220824153914",
       "relativePath": "Files/Pasted image 20220824153914.png"
     },
     {
-      "name": "Screenshot 2022-07-30 at 00.50.24.png",
-      "basename": "Screenshot 2022-07-30 at 00.50.24",
-      "relativePath": "Files/Screenshot 2022-07-30 at 00.50.24.png"
+      "name": "Pasted image 20220829221028.png",
+      "basename": "Pasted image 20220829221028",
+      "relativePath": "Files/Pasted image 20220829221028.png"
+    },
+    {
+      "name": "Pasted image 20220829222218.png",
+      "basename": "Pasted image 20220829222218",
+      "relativePath": "Files/Pasted image 20220829222218.png"
     },
     {
       "name": "Pasted image 20220829222230.png",
@@ -70,14 +79,24 @@
       "relativePath": "Files/Pasted image 20220829222230.png"
     },
     {
+      "name": "Pasted image 20221013114305.png",
+      "basename": "Pasted image 20221013114305",
+      "relativePath": "Files/Pasted image 20221013114305.png"
+    },
+    {
+      "name": "Recording 20221012221952.m4a",
+      "basename": "Recording 20221012221952",
+      "relativePath": "Files/Recording 20221012221952.m4a"
+    },
+    {
       "name": "Screenshot 2022-07-29 at 23.52.23.png",
       "basename": "Screenshot 2022-07-29 at 23.52.23",
       "relativePath": "Files/Screenshot 2022-07-29 at 23.52.23.png"
     },
     {
-      "name": "Pasted image 20220829221028.png",
-      "basename": "Pasted image 20220829221028",
-      "relativePath": "Files/Pasted image 20220829221028.png"
+      "name": "Screenshot 2022-07-30 at 00.50.24.png",
+      "basename": "Screenshot 2022-07-30 at 00.50.24",
+      "relativePath": "Files/Screenshot 2022-07-30 at 00.50.24.png"
     },
     {
       "name": "Screenshot 2022-07-30 at 00.56.00.png",
@@ -95,9 +114,34 @@
       "relativePath": "Files/Screenshot 2022-08-09 at 23.34.46.png"
     },
     {
+      "name": "Screenshot 2022-10-06 at 11.05.33.png",
+      "basename": "Screenshot 2022-10-06 at 11.05.33",
+      "relativePath": "Files/Screenshot 2022-10-06 at 11.05.33.png"
+    },
+    {
+      "name": "Screenshot 2022-10-06 at 11.12.11.png",
+      "basename": "Screenshot 2022-10-06 at 11.12.11",
+      "relativePath": "Files/Screenshot 2022-10-06 at 11.12.11.png"
+    },
+    {
+      "name": "Screenshot 2022-10-07 at 22.45.56.png",
+      "basename": "Screenshot 2022-10-07 at 22.45.56",
+      "relativePath": "Files/Screenshot 2022-10-07 at 22.45.56.png"
+    },
+    {
+      "name": "Screenshot 2022-10-07 at 22.47.07.png",
+      "basename": "Screenshot 2022-10-07 at 22.47.07",
+      "relativePath": "Files/Screenshot 2022-10-07 at 22.47.07.png"
+    },
+    {
       "name": "romanEmpire.png",
       "basename": "romanEmpire",
       "relativePath": "Files/romanEmpire.png"
+    },
+    {
+      "name": "uninstall.mov",
+      "basename": "uninstall",
+      "relativePath": "Files/uninstall.mov"
     }
   ]
 }

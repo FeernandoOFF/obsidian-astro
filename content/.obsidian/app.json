@@ -8,7 +8,7 @@
   "tabSize": 2,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "absolute",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "mobileToolbarCommands": [
     "editor:insert-wikilink",
     "editor:indent-list",
