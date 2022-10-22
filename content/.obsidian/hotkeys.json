@@ -1,12 +1,5 @@
 {
-  "insert-template": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
+  "insert-template": [],
   "command-palette:open": [
     {
       "modifiers": [
@@ -104,6 +97,14 @@
         "Mod"
       ],
       "key": "H"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
     }
   ]
 }

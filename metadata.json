@@ -33,18 +33,18 @@
     ],
     "links": [
       {
-        "link": "tech.md",
-        "displayText": "",
+        "link": "tech",
+        "displayText": "Technology",
         "relativePath": "Zettelkasten/tech.md"
       },
       {
-        "link": "history.md",
-        "displayText": "",
+        "link": "history",
+        "displayText": "History",
         "relativePath": "Zettelkasten/history.md"
       },
       {
-        "link": "productivity.md",
-        "displayText": "",
+        "link": "productivity",
+        "displayText": "Productivity",
         "relativePath": "Zettelkasten/productivity.md"
       },
       {
@@ -67,19 +67,67 @@
         "link": "astro"
       },
       {
-        "link": "iOS"
+        "link": "iOS",
+        "relativePath": "Zettelkasten/iOS.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Obsidian relations",
+        "link": "index",
+        "relativePath": "Zettelkasten/Obsidian relations.md"
+      },
+      {
+        "fileName": "Obsidian relations",
+        "link": "index#My goal",
+        "relativePath": "Zettelkasten/Obsidian relations.md",
+        "cleanLink": "index",
+        "displayText": "index > My goal"
+      },
+      {
+        "fileName": "Obsidian relations",
+        "link": "index#My goal",
+        "relativePath": "Zettelkasten/Obsidian relations.md",
+        "cleanLink": "index",
+        "displayText": "My goal in life"
+      },
+      {
+        "fileName": "Obsidian relations",
+        "link": "index#^535ac9",
+        "relativePath": "Zettelkasten/Obsidian relations.md",
+        "cleanLink": "index",
+        "displayText": "What im doing"
+      },
+      {
+        "fileName": "Obsidian relations",
+        "link": "index#Any news?",
+        "relativePath": "Zettelkasten/Obsidian relations.md",
+        "cleanLink": "index",
+        "displayText": "index > Any news?"
       }
     ]
   },
   {
-    "fileName": "productivity",
-    "relativePath": "Zettelkasten/productivity.md",
+    "fileName": "web security",
+    "relativePath": "Zettelkasten/web security.md",
+    "backlinks": [
+      {
+        "fileName": "Slowloris DDOS Attach",
+        "link": "web security",
+        "relativePath": "Zettelkasten/Slowloris DDOS Attach.md"
+      }
+    ]
+  },
+  {
+    "fileName": "testnote",
+    "relativePath": "Zettelkasten/testnote.md",
     "tags": [
       "moc"
     ],
     "frontmatter": {
-      "title": "productivity | Map Of Content",
-      "publishDate": "Wed 24-08-2022",
+      "title": "testnote | Map Of Content",
+      "publishDate": "22-10-2022",
+      "lang": "en",
       "position": {
         "start": {
           "line": 0,
@@ -87,66 +135,12 @@
           "offset": 0
         },
         "end": {
-          "line": 5,
+          "line": 6,
           "col": 3,
           "offset": 87
         }
       }
-    },
-    "headings": [
-      {
-        "heading": "What is productivity for me?",
-        "level": 2
-      },
-      {
-        "heading": "[My Productivity System](My%20Productivity%20System.md)",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "My Productivity System.md",
-        "displayText": "",
-        "relativePath": "Zettelkasten/My Productivity System.md"
-      },
-      {
-        "link": "Productivity with Obsidian.md",
-        "displayText": "",
-        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "index",
-        "link": "productivity.md",
-        "relativePath": "index.md"
-      },
-      {
-        "fileName": "The benefits of a system don’t increase with his complexity",
-        "link": "productivity.md",
-        "relativePath": "Zettelkasten/The benefits of a system don’t increase with his complexity.md"
-      },
-      {
-        "fileName": "Productivity with Obsidian",
-        "link": "productivity",
-        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
-      },
-      {
-        "fileName": "Note taking Archetypes",
-        "link": "productivity.md",
-        "relativePath": "Zettelkasten/Note taking Archetypes.md"
-      },
-      {
-        "fileName": "My Productivity System",
-        "link": "productivity.md",
-        "relativePath": "Zettelkasten/My Productivity System.md"
-      },
-      {
-        "fileName": "In life the goal is not to learn as much as possible, is to do as much as possible",
-        "link": "productivity.md",
-        "relativePath": "Quotes/In life the goal is not to learn as much as possible, is to do as much as possible.md"
-      }
-    ]
+    }
   },
   {
     "fileName": "tech",
@@ -255,8 +249,8 @@
       },
       {
         "link": "tech Monday 29-08-22.excalidraw",
-        "displayText": "Dawings/tech Monday 29-08-22.excalidraw",
-        "relativePath": "Dawings/tech Monday 29-08-22.excalidraw.md"
+        "displayText": "Drawings/tech Monday 29-08-22.excalidraw",
+        "relativePath": "Drawings/tech Monday 29-08-22.excalidraw.md"
       },
       {
         "link": "tech Wednesday 24-08-22.excalidraw",
@@ -267,8 +261,9 @@
     "backlinks": [
       {
         "fileName": "index",
-        "link": "tech.md",
-        "relativePath": "index.md"
+        "link": "tech",
+        "relativePath": "index.md",
+        "displayText": "Technology"
       },
       {
         "fileName": "Web development",
@@ -370,6 +365,79 @@
     ]
   },
   {
+    "fileName": "productivity",
+    "relativePath": "Zettelkasten/productivity.md",
+    "tags": [
+      "moc"
+    ],
+    "frontmatter": {
+      "title": "productivity | Map Of Content",
+      "publishDate": "Wed 24-08-2022",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 87
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "What is productivity for me?",
+        "level": 2
+      },
+      {
+        "heading": "[My Productivity System](My%20Productivity%20System.md)",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "My Productivity System.md",
+        "displayText": "",
+        "relativePath": "Zettelkasten/My Productivity System.md"
+      },
+      {
+        "link": "Productivity with Obsidian.md",
+        "displayText": "",
+        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "index",
+        "link": "productivity",
+        "relativePath": "index.md",
+        "displayText": "Productivity"
+      },
+      {
+        "fileName": "The benefits of a system don’t increase with his complexity",
+        "link": "productivity.md",
+        "relativePath": "Zettelkasten/The benefits of a system don’t increase with his complexity.md"
+      },
+      {
+        "fileName": "Productivity with Obsidian",
+        "link": "productivity",
+        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
+      },
+      {
+        "fileName": "Note taking Archetypes",
+        "link": "productivity.md",
+        "relativePath": "Zettelkasten/Note taking Archetypes.md"
+      },
+      {
+        "fileName": "In life the goal is not to learn as much as possible, is to do as much as possible",
+        "link": "productivity.md",
+        "relativePath": "Quotes/In life the goal is not to learn as much as possible, is to do as much as possible.md"
+      }
+    ]
+  },
+  {
     "fileName": "not all those who wonder are lost",
     "relativePath": "Zettelkasten/not all those who wonder are lost.md",
     "tags": [
@@ -418,16 +486,24 @@
         "level": 2
       }
     ],
-    "backlinks": [
+    "links": [
       {
-        "fileName": "Journal-template",
-        "link": "journal",
-        "relativePath": "Templates/Journal-template.md"
+        "link": "If you only focus on connections that are already made you'll never create something new",
+        "displayText": "Quotes/If you only focus on connections that are already made you'll never create something new",
+        "relativePath": "Quotes/If you only focus on connections that are already made you'll never create something new.md"
       },
       {
-        "fileName": "25-Aug-2022",
-        "link": "journal",
-        "relativePath": "Journal/25-Aug-2022.md"
+        "link": "Creation is the human nature",
+        "relativePath": "Zettelkasten/Creation is the human nature.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Obsidian as a Journal",
+        "link": "journal#Why a journal?",
+        "relativePath": "Zettelkasten/Obsidian as a Journal.md",
+        "cleanLink": "journal",
+        "displayText": "Zettelkasten/journal > Why a journal?"
       },
       {
         "fileName": "31-Jul-2022",
@@ -440,19 +516,14 @@
         "relativePath": "Journal/29-Jul-2022.md"
       },
       {
-        "fileName": "24-Aug-2022",
+        "fileName": "29-Aug-2022",
         "link": "journal",
-        "relativePath": "Journal/24-Aug-2022.md"
+        "relativePath": "Journal/29-Aug-2022.md"
       },
       {
         "fileName": "28-Jul-2022",
         "link": "journal",
         "relativePath": "Journal/28-Jul-2022.md"
-      },
-      {
-        "fileName": "29-Aug-2022",
-        "link": "journal",
-        "relativePath": "Journal/29-Aug-2022.md"
       },
       {
         "fileName": "28-Aug-2022",
@@ -480,14 +551,19 @@
         "relativePath": "Journal/25-Jul-2022.md"
       },
       {
+        "fileName": "25-Aug-2022",
+        "link": "journal",
+        "relativePath": "Journal/25-Aug-2022.md"
+      },
+      {
         "fileName": "24-Jul-2022",
         "link": "journal",
         "relativePath": "Journal/24-Jul-2022.md"
       },
       {
-        "fileName": "21-Sep-2022",
+        "fileName": "24-Aug-2022",
         "link": "journal",
-        "relativePath": "Journal/21-Sep-2022.md"
+        "relativePath": "Journal/24-Aug-2022.md"
       },
       {
         "fileName": "22-Sep-2022",
@@ -500,14 +576,14 @@
         "relativePath": "Journal/19-Sep-2022.md"
       },
       {
-        "fileName": "12-Sep-2022",
+        "fileName": "15-Oct-2022",
         "link": "journal",
-        "relativePath": "Journal/12-Sep-2022.md"
+        "relativePath": "Journal/15-Oct-2022.md"
       },
       {
-        "fileName": "06-Sep-2022",
+        "fileName": "12-Oct-2022",
         "link": "journal",
-        "relativePath": "Journal/06-Sep-2022.md"
+        "relativePath": "Journal/12-Oct-2022.md"
       },
       {
         "fileName": "07-Sep-2022",
@@ -515,9 +591,14 @@
         "relativePath": "Journal/07-Sep-2022.md"
       },
       {
-        "fileName": "03-Aug-2022",
+        "fileName": "06-Sep-2022",
         "link": "journal",
-        "relativePath": "Journal/03-Aug-2022.md"
+        "relativePath": "Journal/06-Sep-2022.md"
+      },
+      {
+        "fileName": "05-Oct-2022",
+        "link": "journal",
+        "relativePath": "Journal/05-Oct-2022.md"
       },
       {
         "fileName": "04-Aug-2022",
@@ -525,9 +606,9 @@
         "relativePath": "Journal/04-Aug-2022.md"
       },
       {
-        "fileName": "01-Aug-2022",
+        "fileName": "03-Aug-2022",
         "link": "journal",
-        "relativePath": "Journal/01-Aug-2022.md"
+        "relativePath": "Journal/03-Aug-2022.md"
       },
       {
         "fileName": "02-Sep-2022",
@@ -543,12 +624,77 @@
         "fileName": "01-Oct-2022",
         "link": "journal",
         "relativePath": "Journal/01-Oct-2022.md"
+      },
+      {
+        "fileName": "01-Aug-2022",
+        "link": "journal",
+        "relativePath": "Journal/01-Aug-2022.md"
       }
     ]
   },
   {
-    "fileName": "inde",
-    "relativePath": "Zettelkasten/inde.md"
+    "fileName": "iOS",
+    "relativePath": "Zettelkasten/iOS.md",
+    "tags": [
+      "moc",
+      "tech"
+    ],
+    "frontmatter": {
+      "title": "iOS | Map Of Content",
+      "publishDate": "Thu 06-10-2022",
+      "lang": "es",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 94
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Porqué?",
+        "level": 2
+      },
+      {
+        "heading": "[[How does an app work]]",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "Apple Ecosystem",
+        "relativePath": "Zettelkasten/Apple Ecosystem.md"
+      },
+      {
+        "link": "How does an app work",
+        "relativePath": "Zettelkasten/How does an app work.md"
+      },
+      {
+        "link": "XCode",
+        "relativePath": "Zettelkasten/XCode.md"
+      },
+      {
+        "link": "Programming on storyboard",
+        "relativePath": "Zettelkasten/Programming on storyboard.md"
+      },
+      {
+        "link": "Swift",
+        "relativePath": "Zettelkasten/Swift.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "index",
+        "link": "iOS",
+        "relativePath": "index.md"
+      }
+    ]
   },
   {
     "fileName": "history",
@@ -585,8 +731,9 @@
     "backlinks": [
       {
         "fileName": "index",
-        "link": "history.md",
-        "relativePath": "index.md"
+        "link": "history",
+        "relativePath": "index.md",
+        "displayText": "History"
       },
       {
         "fileName": "Odyssey",
@@ -602,17 +749,6 @@
         "fileName": "First Indo-European Languages",
         "link": "history",
         "relativePath": "Zettelkasten/First Indo-European Languages.md"
-      }
-    ]
-  },
-  {
-    "fileName": "dopamine detox",
-    "relativePath": "Zettelkasten/dopamine detox.md",
-    "backlinks": [
-      {
-        "fileName": "29-Aug-2022",
-        "link": "dopamine detox",
-        "relativePath": "Journal/29-Aug-2022.md"
       }
     ]
   },
@@ -668,6 +804,87 @@
     ]
   },
   {
+    "fileName": "XCode",
+    "relativePath": "Zettelkasten/XCode.md",
+    "tags": [
+      "idea",
+      "tech",
+      "ios"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "XCode",
+      "publishDate": "Fri 07-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 9,
+          "col": 3,
+          "offset": 99
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "XCode",
+        "level": 1
+      },
+      {
+        "heading": "Create project",
+        "level": 2
+      },
+      {
+        "heading": "Bundle Identifier",
+        "level": 5
+      },
+      {
+        "heading": "Organization Identifier",
+        "level": 4
+      },
+      {
+        "heading": "Shortcuts",
+        "level": 3
+      },
+      {
+        "heading": "Interface",
+        "level": 3
+      },
+      {
+        "heading": "Configure to run apps",
+        "level": 3
+      },
+      {
+        "heading": "Accounts",
+        "level": 4
+      },
+      {
+        "heading": "Run the app",
+        "level": 4
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Web domain"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "iOS",
+        "link": "XCode",
+        "relativePath": "Zettelkasten/iOS.md"
+      }
+    ]
+  },
+  {
     "fileName": "Web development",
     "relativePath": "Zettelkasten/Web development.md",
     "tags": [
@@ -716,6 +933,162 @@
   {
     "fileName": "Untitled",
     "relativePath": "Zettelkasten/Untitled.md"
+  },
+  {
+    "fileName": "Untitled 1",
+    "relativePath": "Zettelkasten/Untitled 1.md"
+  },
+  {
+    "fileName": "Swift",
+    "relativePath": "Zettelkasten/Swift.md",
+    "tags": [
+      "idea",
+      "tech",
+      "ios"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Swift",
+      "publishDate": "Wed 12-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 9,
+          "col": 3,
+          "offset": 99
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Swift",
+        "level": 1
+      },
+      {
+        "heading": "Basics",
+        "level": 2
+      },
+      {
+        "heading": "Data types",
+        "level": 2
+      },
+      {
+        "heading": "Type Inference",
+        "level": 4
+      },
+      {
+        "heading": "Nil",
+        "level": 4
+      },
+      {
+        "heading": "String",
+        "level": 4
+      },
+      {
+        "heading": "Int",
+        "level": 4
+      },
+      {
+        "heading": "Float",
+        "level": 4
+      },
+      {
+        "heading": "Double",
+        "level": 4
+      },
+      {
+        "heading": "Bool",
+        "level": 4
+      },
+      {
+        "heading": "Optionals",
+        "level": 3
+      },
+      {
+        "heading": "Arrays",
+        "level": 3
+      },
+      {
+        "heading": "Dictionaries",
+        "level": 3
+      },
+      {
+        "heading": "Operators",
+        "level": 3
+      },
+      {
+        "heading": "Functions",
+        "level": 3
+      },
+      {
+        "heading": "Conditionals",
+        "level": 3
+      },
+      {
+        "heading": "Shortcuts",
+        "level": 2
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "iOS",
+        "link": "Swift",
+        "relativePath": "Zettelkasten/iOS.md"
+      }
+    ]
+  },
+  {
+    "fileName": "T knowledge",
+    "relativePath": "Zettelkasten/T knowledge.md",
+    "tags": [
+      "idea",
+      "todo"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "T Knowledge",
+      "publishDate": "Thu 20-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 99
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Types of persons",
+        "level": 2
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "If you only focus on connections that are already made you'll never create something new",
+        "link": "T knowledge",
+        "relativePath": "Quotes/If you only focus on connections that are already made you'll never create something new.md",
+        "displayText": "Zettelkasten/T knowledge"
+      }
+    ]
   },
   {
     "fileName": "UDP",
@@ -773,6 +1146,49 @@
         "fileName": "protocol",
         "link": "UDP",
         "relativePath": "Zettelkasten/protocol.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Pronoun",
+    "relativePath": "Zettelkasten/Pronoun.md",
+    "tags": [
+      "idea"
+    ],
+    "headings": [
+      {
+        "heading": "Pronoun",
+        "level": 1
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "English",
+        "relativePath": "Zettelkasten/English.md"
+      },
+      {
+        "link": "Noun",
+        "relativePath": "Zettelkasten/Noun.md"
+      },
+      {
+        "link": "anaphora"
+      },
+      {
+        "link": "antecendent"
+      },
+      {
+        "link": "antecendent"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Parts of Speech",
+        "link": "Pronoun",
+        "relativePath": "Zettelkasten/Parts of Speech.md"
       }
     ]
   },
@@ -953,21 +1369,16 @@
     ],
     "links": [
       {
-        "link": "web security"
+        "link": "web security",
+        "relativePath": "Zettelkasten/web security.md"
       }
     ]
   },
   {
-    "fileName": "Friends",
-    "relativePath": "Zettelkasten/Friends.md",
-    "tags": [
-      "social",
-      "idea"
-    ],
+    "fileName": "Project management",
+    "relativePath": "Zettelkasten/Project management.md",
     "frontmatter": {
-      "draft": false,
-      "title": "friends",
-      "publishDate": "Sat 10-09-2022",
+      "kanban-plugin": "basic",
       "position": {
         "start": {
           "line": 0,
@@ -975,35 +1386,77 @@
           "offset": 0
         },
         "end": {
-          "line": 6,
+          "line": 4,
           "col": 3,
-          "offset": 81
+          "offset": 30
         }
       }
     },
     "headings": [
       {
-        "heading": "Friends",
-        "level": 1
-      },
-      {
-        "heading": "Why?",
-        "level": 2
-      },
-      {
         "heading": "Ideas",
         "level": 2
       },
       {
-        "heading": "Friendship paradox",
+        "heading": "To research",
         "level": 2
       },
       {
-        "heading": "[How to make friends](Zettelkasten/How%20to%20make%20friends.md)",
+        "heading": "In progress",
         "level": 2
       },
       {
-        "heading": "[How to make friends](Zettelkasten/How%20to%20make%20friends.md)",
+        "heading": "Done",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "My obsidian setup",
+        "displayText": "Zettelkasten/My obsidian setup",
+        "relativePath": "Zettelkasten/My obsidian setup.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Dashboard",
+        "link": "Project management",
+        "relativePath": "Zettelkasten/Dashboard.md",
+        "displayText": "Zettelkasten/Project management"
+      }
+    ]
+  },
+  {
+    "fileName": "Obsidian as a Journal",
+    "relativePath": "Zettelkasten/Obsidian as a Journal.md",
+    "tags": [
+      "pkm"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Obsidian as a Journal",
+      "publishDate": "20-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 97
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Why Journaling",
+        "level": 2
+      },
+      {
+        "heading": "My system in obsidian",
         "level": 2
       },
       {
@@ -1013,27 +1466,17 @@
     ],
     "links": [
       {
-        "link": "school and university"
-      },
+        "link": "journal#Why a journal?",
+        "cleanLink": "journal",
+        "displayText": "Zettelkasten/journal > Why a journal?",
+        "relativePath": "Zettelkasten/journal.md"
+      }
+    ],
+    "backlinks": [
       {
-        "link": "social calibrator"
-      },
-      {
-        "link": "central hubs",
-        "relativePath": "Zettelkasten/central hubs.md"
-      },
-      {
-        "link": "central people"
-      },
-      {
-        "link": "How to make friends.md",
-        "displayText": "",
-        "relativePath": "Zettelkasten/How to make friends.md"
-      },
-      {
-        "link": "How to make friends.md",
-        "displayText": "",
-        "relativePath": "Zettelkasten/How to make friends.md"
+        "fileName": "My obsidian setup",
+        "link": "Obsidian as a Journal",
+        "relativePath": "Zettelkasten/My obsidian setup.md"
       }
     ]
   },
@@ -1070,66 +1513,6 @@
     ]
   },
   {
-    "fileName": "How to make friends",
-    "relativePath": "Zettelkasten/How to make friends.md",
-    "tags": [
-      "idea",
-      "social"
-    ],
-    "frontmatter": {
-      "draft": false,
-      "title": "how to make friends",
-      "publishDate": "Sat 10-09-2022",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 100
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "How to make friends",
-        "level": 1
-      },
-      {
-        "heading": "References",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "close friend"
-      },
-      {
-        "link": "Time"
-      },
-      {
-        "link": "Define with kind of person you're.md",
-        "displayText": "",
-        "relativePath": "Zettelkasten/Define with kind of person you're.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Friends",
-        "link": "How to make friends.md",
-        "relativePath": "Zettelkasten/Friends.md"
-      },
-      {
-        "fileName": "Friends",
-        "link": "How to make friends.md",
-        "relativePath": "Zettelkasten/Friends.md"
-      }
-    ]
-  },
-  {
     "fileName": "Sequential Notes",
     "relativePath": "Zettelkasten/Sequential Notes.md",
     "backlinks": [
@@ -1141,45 +1524,74 @@
     ]
   },
   {
-    "fileName": "Pronoun",
-    "relativePath": "Zettelkasten/Pronoun.md",
+    "fileName": "Programming on storyboard",
+    "relativePath": "Zettelkasten/Programming on storyboard.md",
     "tags": [
-      "idea"
+      "idea",
+      "ios",
+      "storyboard"
     ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Programming on storyboard",
+      "publishDate": "Tue 11-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 9,
+          "col": 3,
+          "offset": 125
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Pronoun",
+        "heading": "Programming on storyboard",
         "level": 1
+      },
+      {
+        "heading": "Project  structure",
+        "level": 3
+      },
+      {
+        "heading": "Interface",
+        "level": 2
+      },
+      {
+        "heading": "Tree elements",
+        "level": 3
+      },
+      {
+        "heading": "Reactive data / Programming",
+        "level": 2
+      },
+      {
+        "heading": "Assistant  (`ctrl + opt + cmd + enter`)",
+        "level": 3
+      },
+      {
+        "heading": "Responsive UI",
+        "level": 3
+      },
+      {
+        "heading": "Responsive interfaces",
+        "level": 4
       },
       {
         "heading": "References",
         "level": 2
       }
     ],
-    "links": [
-      {
-        "link": "English",
-        "relativePath": "Zettelkasten/English.md"
-      },
-      {
-        "link": "Noun",
-        "relativePath": "Zettelkasten/Noun.md"
-      },
-      {
-        "link": "anaphora"
-      },
-      {
-        "link": "antecendent"
-      },
-      {
-        "link": "antecendent"
-      }
-    ],
     "backlinks": [
       {
-        "fileName": "Parts of Speech",
-        "link": "Pronoun",
-        "relativePath": "Zettelkasten/Parts of Speech.md"
+        "fileName": "iOS",
+        "link": "Programming on storyboard",
+        "relativePath": "Zettelkasten/iOS.md"
       }
     ]
   },
@@ -1292,79 +1704,21 @@
         "relativePath": "Zettelkasten/productivity.md"
       },
       {
+        "fileName": "My obsidian setup",
+        "link": "Productivity with Obsidian",
+        "relativePath": "Zettelkasten/My obsidian setup.md",
+        "displayText": "Productivity"
+      },
+      {
+        "fileName": "My obsidian setup",
+        "link": "Productivity with Obsidian",
+        "relativePath": "Zettelkasten/My obsidian setup.md",
+        "displayText": "Zettelkasten/Productivity with Obsidian"
+      },
+      {
         "fileName": "My Productivity System",
         "link": "Productivity with Obsidian.md",
         "relativePath": "Zettelkasten/My Productivity System.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Live your life with purpose",
-    "relativePath": "Zettelkasten/Live your life with purpose.md",
-    "tags": [
-      "idea"
-    ],
-    "frontmatter": {
-      "draft": false,
-      "title": "Live your life with purpose",
-      "publishDate": "Sat 10-09-2022",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 99
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Live your life with purpose",
-        "level": 1
-      },
-      {
-        "heading": "References",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Make your life easier by removing friction",
-        "displayText": ""
-      }
-    ]
-  },
-  {
-    "fileName": "Preposition",
-    "relativePath": "Zettelkasten/Preposition.md",
-    "tags": [
-      "idea"
-    ],
-    "headings": [
-      {
-        "heading": "Preposition",
-        "level": 1
-      },
-      {
-        "heading": "References",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "English",
-        "relativePath": "Zettelkasten/English.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Parts of Speech",
-        "link": "Preposition",
-        "relativePath": "Zettelkasten/Parts of Speech.md"
       }
     ]
   },
@@ -1409,6 +1763,69 @@
     ]
   },
   {
+    "fileName": "Preposition",
+    "relativePath": "Zettelkasten/Preposition.md",
+    "tags": [
+      "idea"
+    ],
+    "headings": [
+      {
+        "heading": "Preposition",
+        "level": 1
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "English",
+        "relativePath": "Zettelkasten/English.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Parts of Speech",
+        "link": "Preposition",
+        "relativePath": "Zettelkasten/Parts of Speech.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Odyssey",
+    "relativePath": "Zettelkasten/Odyssey.md",
+    "tags": [
+      "idea"
+    ],
+    "headings": [
+      {
+        "heading": "Odyssey",
+        "level": 1
+      },
+      {
+        "heading": "Places",
+        "level": 3
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "history",
+        "relativePath": "Zettelkasten/history.md"
+      },
+      {
+        "link": "Homero"
+      },
+      {
+        "link": "Iliad"
+      }
+    ]
+  },
+  {
     "fileName": "People are more than their appearance",
     "relativePath": "Zettelkasten/People are more than their appearance.md",
     "tags": [
@@ -1422,6 +1839,91 @@
       {
         "heading": "References",
         "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Obsidian relations",
+    "relativePath": "Zettelkasten/Obsidian relations.md",
+    "tags": [
+      "idea"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Obsidian relations",
+      "publishDate": "Fri 21-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 99
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Obsidian relations",
+        "level": 1
+      },
+      {
+        "heading": "Embedding (`!`)",
+        "level": 2
+      },
+      {
+        "heading": "Block quote",
+        "level": 2
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "The wrong way to organize information is by where you found it. The correct way is by the location you will use it",
+        "displayText": "Quotes/The wrong way to organize information is by where you found it. The correct way is by the location you will use it",
+        "relativePath": "Quotes/The wrong way to organize information is by where you found it. The correct way is by the location you will use it.md"
+      },
+      {
+        "link": "index",
+        "relativePath": "index.md"
+      },
+      {
+        "link": "index#My goal",
+        "cleanLink": "index",
+        "displayText": "index > My goal",
+        "relativePath": "index.md"
+      },
+      {
+        "link": "index#My goal",
+        "cleanLink": "index",
+        "displayText": "My goal in life",
+        "relativePath": "index.md"
+      },
+      {
+        "link": "index#^535ac9",
+        "cleanLink": "index",
+        "displayText": "What im doing",
+        "relativePath": "index.md"
+      },
+      {
+        "link": "index#Any news?",
+        "cleanLink": "index",
+        "displayText": "index > Any news?",
+        "relativePath": "index.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Obsidian",
+        "link": "Obsidian relations",
+        "relativePath": "Zettelkasten/Obsidian.md"
       }
     ]
   },
@@ -1479,56 +1981,37 @@
     ]
   },
   {
-    "fileName": "Odyssey",
-    "relativePath": "Zettelkasten/Odyssey.md",
-    "tags": [
-      "idea"
-    ],
-    "headings": [
-      {
-        "heading": "Odyssey",
-        "level": 1
-      },
-      {
-        "heading": "Places",
-        "level": 3
-      },
-      {
-        "heading": "References",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "history",
-        "relativePath": "Zettelkasten/history.md"
-      },
-      {
-        "link": "Homero"
-      },
-      {
-        "link": "Iliad"
-      }
-    ]
-  },
-  {
     "fileName": "Obsidian",
     "relativePath": "Zettelkasten/Obsidian.md",
+    "tags": [
+      "obsidian",
+      "pkm"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Obsidian",
+      "publishDate": "Thu 20-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 99
+        }
+      }
+    },
     "headings": [
       {
         "heading": "What is obsidian?",
-        "level": 2
+        "level": 1
       },
       {
         "heading": "How does it works?",
-        "level": 2
-      },
-      {
-        "heading": "My setup",
-        "level": 2
-      },
-      {
-        "heading": "How we can use obsidian?",
         "level": 2
       }
     ],
@@ -1537,7 +2020,8 @@
         "link": "Obsidian plugins"
       },
       {
-        "link": "Obsidian relations"
+        "link": "Obsidian relations",
+        "relativePath": "Zettelkasten/Obsidian relations.md"
       },
       {
         "link": "Obsidian templates"
@@ -1549,13 +2033,9 @@
         "link": "Obsidian tags"
       },
       {
-        "link": "Obsidian Excalidraw Plugin"
-      },
-      {
-        "link": "Obsidian Outliner"
-      },
-      {
-        "link": "Obsidian Templater"
+        "link": "My obsidian setup",
+        "displayText": "Zettelkasten/My obsidian setup",
+        "relativePath": "Zettelkasten/My obsidian setup.md"
       }
     ],
     "backlinks": [
@@ -1568,18 +2048,72 @@
         "fileName": "Note taking Archetypes",
         "link": "Obsidian.md",
         "relativePath": "Zettelkasten/Note taking Archetypes.md"
+      },
+      {
+        "fileName": "My Productivity System",
+        "link": "Obsidian",
+        "relativePath": "Zettelkasten/My Productivity System.md"
       }
     ]
   },
   {
-    "fileName": "Noun",
-    "relativePath": "Zettelkasten/Noun.md",
+    "fileName": "Minimalism",
+    "relativePath": "Zettelkasten/Minimalism.md",
+    "tags": [
+      "moc",
+      "minimalism"
+    ],
+    "frontmatter": {
+      "title": "Minimalism | Map Of Content",
+      "publishDate": "Sun 04-09-2022",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 98
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "index",
+        "link": "Minimalism",
+        "relativePath": "index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Obsidian Dataview",
+    "relativePath": "Zettelkasten/Obsidian Dataview.md",
     "tags": [
       "idea"
     ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Obsidian Dataview",
+      "publishDate": "Thu 20-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 1,
+          "col": 0,
+          "offset": 1
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 99
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Noun",
+        "heading": "Obsidian Dataview",
         "level": 1
       },
       {
@@ -1587,25 +2121,11 @@
         "level": 2
       }
     ],
-    "links": [
-      {
-        "link": "English",
-        "relativePath": "Zettelkasten/English.md"
-      },
-      {
-        "link": "Phrase"
-      }
-    ],
     "backlinks": [
       {
-        "fileName": "Pronoun",
-        "link": "Noun",
-        "relativePath": "Zettelkasten/Pronoun.md"
-      },
-      {
-        "fileName": "Parts of Speech",
-        "link": "Noun",
-        "relativePath": "Zettelkasten/Parts of Speech.md"
+        "fileName": "My obsidian setup",
+        "link": "Obsidian Dataview",
+        "relativePath": "Zettelkasten/My obsidian setup.md"
       }
     ]
   },
@@ -1689,6 +2209,44 @@
     ]
   },
   {
+    "fileName": "Noun",
+    "relativePath": "Zettelkasten/Noun.md",
+    "tags": [
+      "idea"
+    ],
+    "headings": [
+      {
+        "heading": "Noun",
+        "level": 1
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "English",
+        "relativePath": "Zettelkasten/English.md"
+      },
+      {
+        "link": "Phrase"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Pronoun",
+        "link": "Noun",
+        "relativePath": "Zettelkasten/Pronoun.md"
+      },
+      {
+        "fileName": "Parts of Speech",
+        "link": "Noun",
+        "relativePath": "Zettelkasten/Parts of Speech.md"
+      }
+    ]
+  },
+  {
     "fileName": "My problem with school",
     "relativePath": "Zettelkasten/My problem with school.md",
     "tags": [
@@ -1712,66 +2270,6 @@
       {
         "link": "Sequential Notes",
         "relativePath": "Zettelkasten/Sequential Notes.md"
-      }
-    ]
-  },
-  {
-    "fileName": "My Productivity System",
-    "relativePath": "Zettelkasten/My Productivity System.md",
-    "tags": [
-      "idea"
-    ],
-    "headings": [
-      {
-        "heading": "My Productivity System",
-        "level": 1
-      },
-      {
-        "heading": "Apps",
-        "level": 2
-      },
-      {
-        "heading": "Methodology",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "References",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "productivity.md",
-        "displayText": "",
-        "relativePath": "Zettelkasten/productivity.md"
-      },
-      {
-        "link": "personal"
-      },
-      {
-        "link": "Apple Ecosystem.md",
-        "displayText": ""
-      },
-      {
-        "link": "Productivity with Obsidian.md",
-        "displayText": "",
-        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "productivity",
-        "link": "My Productivity System.md",
-        "relativePath": "Zettelkasten/productivity.md"
-      },
-      {
-        "fileName": "Productivity with Obsidian",
-        "link": "My Productivity System",
-        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
       }
     ]
   },
@@ -1825,15 +2323,16 @@
     ]
   },
   {
-    "fileName": "Minimalism",
-    "relativePath": "Zettelkasten/Minimalism.md",
+    "fileName": "My obsidian setup",
+    "relativePath": "Zettelkasten/My obsidian setup.md",
     "tags": [
-      "moc",
-      "minimalism"
+      "idea",
+      "productivity"
     ],
     "frontmatter": {
-      "title": "Minimalism | Map Of Content",
-      "publishDate": "Sun 04-09-2022",
+      "draft": false,
+      "title": "My obsidian note-taking system",
+      "publishDate": "06-10-2022",
       "position": {
         "start": {
           "line": 0,
@@ -1841,17 +2340,187 @@
           "offset": 0
         },
         "end": {
-          "line": 6,
+          "line": 7,
           "col": 3,
-          "offset": 98
+          "offset": 113
         }
       }
     },
+    "headings": [
+      {
+        "heading": "My obsidian note-taking system",
+        "level": 1
+      },
+      {
+        "heading": "Obsidian controls",
+        "level": 2
+      },
+      {
+        "heading": "Plugins",
+        "level": 2
+      },
+      {
+        "heading": "What and how I use Obsidian for?",
+        "level": 2
+      },
+      {
+        "heading": "Useful commands",
+        "level": 3
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "#Digital garden",
+        "relativePath": "Zettelkasten/My obsidian setup.md",
+        "cleanLink": "My obsidian setup",
+        "displayText": "Digital garden"
+      },
+      {
+        "link": "Obsidian Excalidraw Plugin"
+      },
+      {
+        "link": "Obsidian Outliner"
+      },
+      {
+        "link": "Obsidian Templater"
+      },
+      {
+        "link": "Obsidian Dataview",
+        "relativePath": "Zettelkasten/Obsidian Dataview.md"
+      },
+      {
+        "link": "Kindle"
+      },
+      {
+        "link": "Obsidian as a Journal",
+        "relativePath": "Zettelkasten/Obsidian as a Journal.md"
+      },
+      {
+        "link": "second brain"
+      },
+      {
+        "link": "Digital garden"
+      },
+      {
+        "link": "Productivity with Obsidian",
+        "displayText": "Productivity",
+        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
+      },
+      {
+        "link": "Productivity with Obsidian",
+        "displayText": "Zettelkasten/Productivity with Obsidian",
+        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
+      }
+    ],
     "backlinks": [
       {
-        "fileName": "index",
-        "link": "Minimalism",
-        "relativePath": "index.md"
+        "fileName": "Project management",
+        "link": "My obsidian setup",
+        "relativePath": "Zettelkasten/Project management.md",
+        "displayText": "Zettelkasten/My obsidian setup"
+      },
+      {
+        "fileName": "Obsidian",
+        "link": "My obsidian setup",
+        "relativePath": "Zettelkasten/Obsidian.md",
+        "displayText": "Zettelkasten/My obsidian setup"
+      },
+      {
+        "fileName": "My Productivity System",
+        "link": "My obsidian setup",
+        "relativePath": "Zettelkasten/My Productivity System.md",
+        "displayText": "Zettelkasten/My obsidian setup"
+      }
+    ]
+  },
+  {
+    "fileName": "My Productivity System",
+    "relativePath": "Zettelkasten/My Productivity System.md",
+    "tags": [
+      "idea",
+      "productity",
+      "personal"
+    ],
+    "frontmatter": {
+      "date": "23-07-2022",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 55
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "My Productivity System",
+        "level": 1
+      },
+      {
+        "heading": "Apps",
+        "level": 2
+      },
+      {
+        "heading": "1. Capturing",
+        "level": 1
+      },
+      {
+        "heading": "2.",
+        "level": 2
+      },
+      {
+        "heading": "Methodology",
+        "level": 2
+      },
+      {
+        "heading": "Notes",
+        "level": 2
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Apple Ecosystem.md",
+        "displayText": "",
+        "relativePath": "Zettelkasten/Apple Ecosystem.md"
+      },
+      {
+        "link": "Obsidian",
+        "relativePath": "Zettelkasten/Obsidian.md"
+      },
+      {
+        "link": "Productivity with Obsidian.md",
+        "displayText": "",
+        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
+      },
+      {
+        "link": "My obsidian setup",
+        "displayText": "Zettelkasten/My obsidian setup",
+        "relativePath": "Zettelkasten/My obsidian setup.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "productivity",
+        "link": "My Productivity System.md",
+        "relativePath": "Zettelkasten/productivity.md"
+      },
+      {
+        "fileName": "Productivity with Obsidian",
+        "link": "My Productivity System",
+        "relativePath": "Zettelkasten/Productivity with Obsidian.md"
       }
     ]
   },
@@ -1867,11 +2536,50 @@
     ]
   },
   {
+    "fileName": "Live your life with purpose",
+    "relativePath": "Zettelkasten/Live your life with purpose.md",
+    "tags": [
+      "idea"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Live your life with purpose",
+      "publishDate": "Sat 10-09-2022",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 99
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Live your life with purpose",
+        "level": 1
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Make your life easier by removing friction",
+        "displayText": ""
+      }
+    ]
+  },
+  {
     "fileName": "Italy's history",
     "relativePath": "Zettelkasten/Italy's history.md",
     "tags": [
       "history",
-      "testtag",
       "idea"
     ],
     "frontmatter": {
@@ -1883,9 +2591,9 @@
           "offset": 0
         },
         "end": {
-          "line": 5,
+          "line": 4,
           "col": 3,
-          "offset": 59
+          "offset": 49
         }
       }
     },
@@ -1995,13 +2703,189 @@
     ]
   },
   {
-    "fileName": "HTTP Methods",
-    "relativePath": "Zettelkasten/HTTP Methods.md",
+    "fileName": "Friends",
+    "relativePath": "Zettelkasten/Friends.md",
+    "tags": [
+      "social",
+      "idea"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "friends",
+      "publishDate": "Sat 10-09-2022",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 81
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Friends",
+        "level": 1
+      },
+      {
+        "heading": "Why?",
+        "level": 2
+      },
+      {
+        "heading": "Ideas",
+        "level": 2
+      },
+      {
+        "heading": "Friendship paradox",
+        "level": 2
+      },
+      {
+        "heading": "[How to make friends](Zettelkasten/How%20to%20make%20friends.md)",
+        "level": 2
+      },
+      {
+        "heading": "[How to make friends](Zettelkasten/How%20to%20make%20friends.md)",
+        "level": 2
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "school and university"
+      },
+      {
+        "link": "social calibrator"
+      },
+      {
+        "link": "central hubs",
+        "relativePath": "Zettelkasten/central hubs.md"
+      },
+      {
+        "link": "central people"
+      },
+      {
+        "link": "How to make friends.md",
+        "displayText": "",
+        "relativePath": "Zettelkasten/How to make friends.md"
+      },
+      {
+        "link": "How to make friends.md",
+        "displayText": "",
+        "relativePath": "Zettelkasten/How to make friends.md"
+      }
+    ]
+  },
+  {
+    "fileName": "How to make friends",
+    "relativePath": "Zettelkasten/How to make friends.md",
+    "tags": [
+      "idea",
+      "social"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "how to make friends",
+      "publishDate": "Sat 10-09-2022",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 100
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "How to make friends",
+        "level": 1
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "close friend"
+      },
+      {
+        "link": "Time"
+      },
+      {
+        "link": "Define with kind of person you're.md",
+        "displayText": "",
+        "relativePath": "Zettelkasten/Define with kind of person you're.md"
+      }
+    ],
     "backlinks": [
       {
-        "fileName": "HTTP",
-        "link": "HTTP Methods",
-        "relativePath": "Zettelkasten/HTTP.md"
+        "fileName": "Friends",
+        "link": "How to make friends.md",
+        "relativePath": "Zettelkasten/Friends.md"
+      },
+      {
+        "fileName": "Friends",
+        "link": "How to make friends.md",
+        "relativePath": "Zettelkasten/Friends.md"
+      }
+    ]
+  },
+  {
+    "fileName": "How does an app work",
+    "relativePath": "Zettelkasten/How does an app work.md",
+    "tags": [
+      "idea",
+      "tech",
+      "ios"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "How does an app work",
+      "publishDate": "Thu 06-10-2022",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 105
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "How does an app work",
+        "level": 1
+      },
+      {
+        "heading": "Parts of an app",
+        "level": 4
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "iOS",
+        "link": "How does an app work",
+        "relativePath": "Zettelkasten/iOS.md"
       }
     ]
   },
@@ -2082,52 +2966,13 @@
     ]
   },
   {
-    "fileName": "Define with kind of person you're",
-    "relativePath": "Zettelkasten/Define with kind of person you're.md",
-    "tags": [
-      "idea"
-    ],
-    "frontmatter": {
-      "draft": false,
-      "title": "person you're",
-      "publishDate": "Sat 10-09-2022",
-      "tags": null,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 78
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Person you're",
-        "level": 1
-      },
-      {
-        "heading": "Extrovers",
-        "level": 2
-      },
-      {
-        "heading": "Introvers",
-        "level": 2
-      },
-      {
-        "heading": "References",
-        "level": 2
-      }
-    ],
+    "fileName": "HTTP Methods",
+    "relativePath": "Zettelkasten/HTTP Methods.md",
     "backlinks": [
       {
-        "fileName": "How to make friends",
-        "link": "Define with kind of person you're.md",
-        "relativePath": "Zettelkasten/How to make friends.md"
+        "fileName": "HTTP",
+        "link": "HTTP Methods",
+        "relativePath": "Zettelkasten/HTTP.md"
       }
     ]
   },
@@ -2229,14 +3074,14 @@
     ],
     "backlinks": [
       {
-        "fileName": "Tenses",
-        "link": "English",
-        "relativePath": "Zettelkasten/Tenses.md"
-      },
-      {
         "fileName": "Pronoun",
         "link": "English",
         "relativePath": "Zettelkasten/Pronoun.md"
+      },
+      {
+        "fileName": "Tenses",
+        "link": "English",
+        "relativePath": "Zettelkasten/Tenses.md"
       },
       {
         "fileName": "Preposition",
@@ -2257,6 +3102,225 @@
         "fileName": "Collocations",
         "link": "English",
         "relativePath": "Zettelkasten/Collocations.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Dopamine Detox",
+    "relativePath": "Zettelkasten/Dopamine Detox.md",
+    "tags": [
+      "idea",
+      "productivity"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "dopamine detox",
+      "publishDate": "Thu 20-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 110
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "29-Aug-2022",
+        "link": "Dopamine Detox",
+        "relativePath": "Journal/29-Aug-2022.md",
+        "displayText": "Zettelkasten/Dopamine Detox"
+      }
+    ]
+  },
+  {
+    "fileName": "Dashboard",
+    "relativePath": "Zettelkasten/Dashboard.md",
+    "tags": [
+      "admin"
+    ],
+    "frontmatter": {
+      "draft": true,
+      "title": "Dashboard",
+      "publishDate": "22-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 86
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Dashboard",
+        "level": 1
+      },
+      {
+        "heading": "Projects",
+        "level": 2
+      },
+      {
+        "heading": "Books",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Project management",
+        "displayText": "Zettelkasten/Project management",
+        "relativePath": "Zettelkasten/Project management.md"
+      },
+      {
+        "link": "Bookshelve",
+        "displayText": "Zettelkasten/Bookshelve",
+        "relativePath": "Zettelkasten/Bookshelve.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Define with kind of person you're",
+    "relativePath": "Zettelkasten/Define with kind of person you're.md",
+    "tags": [
+      "idea"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "person you're",
+      "publishDate": "Sat 10-09-2022",
+      "tags": null,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 78
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Person you're",
+        "level": 1
+      },
+      {
+        "heading": "Extrovers",
+        "level": 2
+      },
+      {
+        "heading": "Introvers",
+        "level": 2
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "How to make friends",
+        "link": "Define with kind of person you're.md",
+        "relativePath": "Zettelkasten/How to make friends.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Creation is the human nature",
+    "relativePath": "Zettelkasten/Creation is the human nature.md",
+    "tags": [
+      "quote"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Creation is the human nature",
+      "publishDate": "Thu 20-10-2022",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 102
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "journal",
+        "link": "Creation is the human nature",
+        "relativePath": "Zettelkasten/journal.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Conversation topics",
+    "relativePath": "Zettelkasten/Conversation topics.md",
+    "tags": [
+      "idea",
+      "social"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Conversation topics",
+      "publishDate": "Wed 12-10-2022",
+      "lang": "en",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 109
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Conversation topics",
+        "level": 1
+      },
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "how to make friends and influence people"
       }
     ]
   },
@@ -2303,6 +3367,54 @@
       },
       {
         "link": "Get"
+      }
+    ]
+  },
+  {
+    "fileName": "Bookshelve",
+    "relativePath": "Zettelkasten/Bookshelve.md",
+    "frontmatter": {
+      "kanban-plugin": "basic",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 30
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "To read",
+        "level": 2
+      },
+      {
+        "heading": "Reading",
+        "level": 2
+      },
+      {
+        "heading": "Readed",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "How to Win Friends and Influence People - Dale Carnegie",
+        "displayText": "Kindle/How to Win Friends and Influence People - Dale Carnegie",
+        "relativePath": "Kindle/How to Win Friends and Influence People - Dale Carnegie.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Dashboard",
+        "link": "Bookshelve",
+        "relativePath": "Zettelkasten/Dashboard.md",
+        "displayText": "Zettelkasten/Bookshelve"
       }
     ]
   },
@@ -2379,55 +3491,18 @@
     ]
   },
   {
-    "fileName": "2022-07-25",
-    "relativePath": "Zettelkasten/2022-07-25.md"
-  },
-  {
-    "fileName": "26-Aug-2022",
-    "relativePath": "Zettelkasten/26-Aug-2022.md",
+    "fileName": "Apple Ecosystem",
+    "relativePath": "Zettelkasten/Apple Ecosystem.md",
     "backlinks": [
       {
-        "fileName": "25-Aug-2022",
-        "link": "26-Aug-2022",
-        "relativePath": "Journal/25-Aug-2022.md"
+        "fileName": "iOS",
+        "link": "Apple Ecosystem",
+        "relativePath": "Zettelkasten/iOS.md"
       },
       {
-        "fileName": "27-Aug-2022",
-        "link": "26-Aug-2022",
-        "relativePath": "Journal/27-Aug-2022.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Journal-template",
-    "relativePath": "Templates/Journal-template.md",
-    "frontmatter": {
-      "date": {
-        "{ date: DD-MM-YYYY }": null
-      },
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 34
-        }
-      }
-    },
-    "links": [
-      {
-        "link": "journal",
-        "relativePath": "Zettelkasten/journal.md"
-      },
-      {
-        "link": "{{date: DD-MM-YYYY}}"
-      },
-      {
-        "link": "{{date: DD-MM-YYYY}}"
+        "fileName": "My Productivity System",
+        "link": "Apple Ecosystem.md",
+        "relativePath": "Zettelkasten/My Productivity System.md"
       }
     ]
   },
@@ -2439,10 +3514,9 @@
     ],
     "frontmatter": {
       "draft": false,
-      "title": "{{Title}}",
-      "publishDate": {
-        "{ date: ddd DD-MM-YYYY }": null
-      },
+      "title": "<% tp.file.title%>",
+      "publishDate": "<%  tp.date.now(\"DD-MM-YYYY\") %>",
+      "author": null,
       "position": {
         "start": {
           "line": 0,
@@ -2450,16 +3524,20 @@
           "offset": 0
         },
         "end": {
-          "line": 6,
+          "line": 7,
           "col": 3,
-          "offset": 92
+          "offset": 116
         }
       }
     },
     "headings": [
       {
-        "heading": "{{Title}}",
-        "level": 1
+        "heading": "<% tp.file.title%>",
+        "level": 2
+      },
+      {
+        "heading": "Thoughts",
+        "level": 3
       },
       {
         "heading": "References",
@@ -2474,10 +3552,9 @@
       "moc"
     ],
     "frontmatter": {
-      "title": "{{Title}} | Map Of Content",
-      "publishDate": {
-        "{ date: ddd DD-MM-YYYY }": null
-      },
+      "title": "<% tp.file.title %> | Map Of Content",
+      "publishDate": "<%  tp.date.now(\"DD-MM-YYYY\") %>",
+      "lang": "en",
       "position": {
         "start": {
           "line": 0,
@@ -2485,12 +3562,47 @@
           "offset": 0
         },
         "end": {
-          "line": 5,
+          "line": 6,
           "col": 3,
-          "offset": 93
+          "offset": 120
         }
       }
     }
+  },
+  {
+    "fileName": "Journal-template",
+    "relativePath": "Templates/Journal-template.md",
+    "tags": [
+      "journal"
+    ],
+    "frontmatter": {
+      "fc-calendar": "Obsidian Calendar",
+      "fc-date": "<% tp.date.now(\"DD-MM-YYYY\") %>",
+      "fc-category": "Journal",
+      "habit": null,
+      "mood": null,
+      "summary": null,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 138
+        }
+      }
+    },
+    "links": [
+      {
+        "link": "<%  tp.date.yesterday(\"DD-MM-YYYY\") %>"
+      },
+      {
+        "link": "<%  tp.date.tomorrow(\"DD-MM-YYYY\") %>"
+      }
+    ]
   },
   {
     "fileName": "Core Zettle Idea",
@@ -2500,11 +3612,9 @@
     ],
     "frontmatter": {
       "draft": false,
-      "title": "{{Title}}",
-      "publishDate": {
-        "{ date: ddd DD-MM-YYYY }": null
-      },
-      "tags": null,
+      "title": "<% tp.file.title %>",
+      "publishDate": "<%  tp.date.now(\"DD-MM-YYYY\") %>",
+      "lang": "en",
       "position": {
         "start": {
           "line": 0,
@@ -2512,15 +3622,15 @@
           "offset": 0
         },
         "end": {
-          "line": 5,
+          "line": 7,
           "col": 3,
-          "offset": 83
+          "offset": 115
         }
       }
     },
     "headings": [
       {
-        "heading": "{{Title}}",
+        "heading": "<% tp.file.title %>",
         "level": 1
       },
       {
@@ -2533,6 +3643,83 @@
         "fileName": "Productivity with Obsidian",
         "link": "Core Zettle Idea",
         "relativePath": "Zettelkasten/Productivity with Obsidian.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Book template",
+    "relativePath": "Templates/Book template.md",
+    "frontmatter": {
+      "bookStatus": "started",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 27
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "{{title}}",
+        "level": 1
+      },
+      {
+        "heading": "Metadata",
+        "level": 2
+      },
+      {
+        "heading": "Highlights",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "{{authorUrl}}",
+        "displayText": ""
+      },
+      {
+        "link": "{{author}}"
+      },
+      {
+        "link": "{{url}}",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "Your brain is for creating ideas, not for holding tem",
+    "relativePath": "Quotes/Your brain is for creating ideas, not for holding tem.md",
+    "tags": [
+      "quote"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "Your brain is for creating ideas, not for holding tem",
+      "publishDate": "Fri 21-10-2022",
+      "author": "David Allen",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 147
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "References",
+        "level": 2
       }
     ]
   },
@@ -2555,6 +3742,45 @@
     "links": [
       {
         "link": "Bits and Bytes"
+      }
+    ]
+  },
+  {
+    "fileName": "The wrong way to organize information is by where you found it. The correct way is by the location you will use it",
+    "relativePath": "Quotes/The wrong way to organize information is by where you found it. The correct way is by the location you will use it.md",
+    "tags": [
+      "quote"
+    ],
+    "frontmatter": {
+      "draft": false,
+      "title": "The wrong way to organize information is by where you found it. The correct way is by the location you will use it",
+      "publishDate": "Fri 21-10-2022",
+      "author": "Tiago Forte",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 208
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Obsidian relations",
+        "link": "The wrong way to organize information is by where you found it. The correct way is by the location you will use it",
+        "relativePath": "Zettelkasten/Obsidian relations.md",
+        "displayText": "Quotes/The wrong way to organize information is by where you found it. The correct way is by the location you will use it"
       }
     ]
   },
@@ -2611,24 +3837,11 @@
     "tags": [
       "quote"
     ],
-    "headings": [
-      {
-        "heading": "If you only focus on connections that are already made you'll never create something new",
-        "level": 1
-      },
-      {
-        "heading": "References",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "25-Aug-2022",
-    "relativePath": "Journal/25-Aug-2022.md",
     "frontmatter": {
-      "date": {
-        "{ date: 26-Aug-2022 }": null
-      },
+      "draft": false,
+      "title": "If you only focus on connections that are already made you'll never create something new",
+      "publishDate": "Thu 23-07-2022",
+      "lang": "en",
       "position": {
         "start": {
           "line": 0,
@@ -2636,31 +3849,31 @@
           "offset": 0
         },
         "end": {
-          "line": 2,
+          "line": 7,
           "col": 3,
-          "offset": 35
+          "offset": 170
         }
       }
     },
+    "headings": [
+      {
+        "heading": "References",
+        "level": 2
+      }
+    ],
     "links": [
       {
-        "link": "journal",
-        "relativePath": "Zettelkasten/journal.md"
-      },
-      {
-        "link": "24-Aug-2022",
-        "relativePath": "Journal/24-Aug-2022.md"
-      },
-      {
-        "link": "26-Aug-2022",
-        "relativePath": "Zettelkasten/26-Aug-2022.md"
+        "link": "T knowledge",
+        "displayText": "Zettelkasten/T knowledge",
+        "relativePath": "Zettelkasten/T knowledge.md"
       }
     ],
     "backlinks": [
       {
-        "fileName": "24-Aug-2022",
-        "link": "25-Aug-2022",
-        "relativePath": "Journal/24-Aug-2022.md"
+        "fileName": "journal",
+        "link": "If you only focus on connections that are already made you'll never create something new",
+        "relativePath": "Zettelkasten/journal.md",
+        "displayText": "Quotes/If you only focus on connections that are already made you'll never create something new"
       }
     ]
   },
@@ -2745,11 +3958,11 @@
     ]
   },
   {
-    "fileName": "24-Aug-2022",
-    "relativePath": "Journal/24-Aug-2022.md",
+    "fileName": "29-Aug-2022",
+    "relativePath": "Journal/29-Aug-2022.md",
     "frontmatter": {
       "date": {
-        "{ date: 25-Aug-2022 }": null
+        "{ date: 30-Aug-2022 }": null
       },
       "position": {
         "start": {
@@ -2764,50 +3977,32 @@
         }
       }
     },
-    "headings": [
-      {
-        "heading": "What I appreciate today?",
-        "level": 2
-      },
-      {
-        "heading": "What moment of the day did I enjoy?",
-        "level": 2
-      },
-      {
-        "heading": "What I learned today?",
-        "level": 2
-      },
-      {
-        "heading": "Achievement of today?",
-        "level": 2
-      },
-      {
-        "heading": "How could I have connected more with someone?",
-        "level": 2
-      },
-      {
-        "heading": "What could I have done better?",
-        "level": 2
-      }
-    ],
     "links": [
       {
         "link": "journal",
         "relativePath": "Zettelkasten/journal.md"
       },
       {
-        "link": "23-Aug-2022"
+        "link": "28-Aug-2022",
+        "relativePath": "Journal/28-Aug-2022.md"
       },
       {
-        "link": "25-Aug-2022",
-        "relativePath": "Journal/25-Aug-2022.md"
+        "link": "30-Aug-2022"
+      },
+      {
+        "link": "Dopamine Detox",
+        "displayText": "Zettelkasten/Dopamine Detox",
+        "relativePath": "Zettelkasten/Dopamine Detox.md"
+      },
+      {
+        "link": "originalidad"
       }
     ],
     "backlinks": [
       {
-        "fileName": "25-Aug-2022",
-        "link": "24-Aug-2022",
-        "relativePath": "Journal/25-Aug-2022.md"
+        "fileName": "28-Aug-2022",
+        "link": "29-Aug-2022",
+        "relativePath": "Journal/28-Aug-2022.md"
       }
     ]
   },
@@ -2864,54 +4059,6 @@
         "fileName": "27-Jul-2022",
         "link": "28-Jul-2022",
         "relativePath": "Journal/27-Jul-2022.md"
-      }
-    ]
-  },
-  {
-    "fileName": "29-Aug-2022",
-    "relativePath": "Journal/29-Aug-2022.md",
-    "frontmatter": {
-      "date": {
-        "{ date: 30-Aug-2022 }": null
-      },
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 35
-        }
-      }
-    },
-    "links": [
-      {
-        "link": "journal",
-        "relativePath": "Zettelkasten/journal.md"
-      },
-      {
-        "link": "28-Aug-2022",
-        "relativePath": "Journal/28-Aug-2022.md"
-      },
-      {
-        "link": "30-Aug-2022"
-      },
-      {
-        "link": "dopamine detox",
-        "relativePath": "Zettelkasten/dopamine detox.md"
-      },
-      {
-        "link": "originalidad"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "28-Aug-2022",
-        "link": "29-Aug-2022",
-        "relativePath": "Journal/28-Aug-2022.md"
       }
     ]
   },
@@ -3101,8 +4248,7 @@
         "relativePath": "Zettelkasten/journal.md"
       },
       {
-        "link": "26-Aug-2022",
-        "relativePath": "Zettelkasten/26-Aug-2022.md"
+        "link": "26-Aug-2022"
       },
       {
         "link": "28-Aug-2022",
@@ -3230,6 +4376,47 @@
     ]
   },
   {
+    "fileName": "25-Aug-2022",
+    "relativePath": "Journal/25-Aug-2022.md",
+    "frontmatter": {
+      "date": {
+        "{ date: 26-Aug-2022 }": null
+      },
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "links": [
+      {
+        "link": "journal",
+        "relativePath": "Zettelkasten/journal.md"
+      },
+      {
+        "link": "24-Aug-2022",
+        "relativePath": "Journal/24-Aug-2022.md"
+      },
+      {
+        "link": "26-Aug-2022"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "24-Aug-2022",
+        "link": "25-Aug-2022",
+        "relativePath": "Journal/24-Aug-2022.md"
+      }
+    ]
+  },
+  {
     "fileName": "24-Jul-2022",
     "relativePath": "Journal/24-Jul-2022.md",
     "frontmatter": {
@@ -3285,8 +4472,25 @@
     ]
   },
   {
-    "fileName": "20-Aug-2022",
-    "relativePath": "Journal/20-Aug-2022.md",
+    "fileName": "24-Aug-2022",
+    "relativePath": "Journal/24-Aug-2022.md",
+    "frontmatter": {
+      "date": {
+        "{ date: 25-Aug-2022 }": null
+      },
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
     "headings": [
       {
         "heading": "What I appreciate today?",
@@ -3315,51 +4519,22 @@
     ],
     "links": [
       {
-        "link": "19-Aug-2022"
-      },
-      {
-        "link": "21-Aug-2022"
-      }
-    ]
-  },
-  {
-    "fileName": "21-Sep-2022",
-    "relativePath": "Journal/21-Sep-2022.md",
-    "frontmatter": {
-      "date": {
-        "{ date: 22-Sep-2022 }": null
-      },
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 35
-        }
-      }
-    },
-    "links": [
-      {
         "link": "journal",
         "relativePath": "Zettelkasten/journal.md"
       },
       {
-        "link": "20-Sep-2022"
+        "link": "23-Aug-2022"
       },
       {
-        "link": "22-Sep-2022",
-        "relativePath": "Journal/22-Sep-2022.md"
+        "link": "25-Aug-2022",
+        "relativePath": "Journal/25-Aug-2022.md"
       }
     ],
     "backlinks": [
       {
-        "fileName": "22-Sep-2022",
-        "link": "21-Sep-2022",
-        "relativePath": "Journal/22-Sep-2022.md"
+        "fileName": "25-Aug-2022",
+        "link": "24-Aug-2022",
+        "relativePath": "Journal/25-Aug-2022.md"
       }
     ]
   },
@@ -3405,8 +4580,40 @@
     ]
   },
   {
-    "fileName": "15-Aug-2022",
-    "relativePath": "Journal/15-Aug-2022.md",
+    "fileName": "21-Sep-2022",
+    "relativePath": "Journal/21-Sep-2022.md",
+    "headings": [
+      {
+        "heading": "Daily note:",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "21-10-2022"
+      },
+      {
+        "link": "21-10-2022"
+      },
+      {
+        "link": "20-Sep-2022"
+      },
+      {
+        "link": "22-Sep-2022",
+        "relativePath": "Journal/22-Sep-2022.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "22-Sep-2022",
+        "link": "21-Sep-2022",
+        "relativePath": "Journal/22-Sep-2022.md"
+      }
+    ]
+  },
+  {
+    "fileName": "20-Aug-2022",
+    "relativePath": "Journal/20-Aug-2022.md",
     "headings": [
       {
         "heading": "What I appreciate today?",
@@ -3435,52 +4642,10 @@
     ],
     "links": [
       {
-        "link": "14-Aug-2022"
+        "link": "19-Aug-2022"
       },
       {
-        "link": "16-Aug-2022"
-      }
-    ]
-  },
-  {
-    "fileName": "11-Aug-2022",
-    "relativePath": "Journal/11-Aug-2022.md",
-    "frontmatter": {
-      "creation date": "2022-08-11 20:36",
-      "modification date": "Monday 6th December 2021 06:26:03",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 92
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Timelog",
-        "level": 2
-      },
-      {
-        "heading": "Reading",
-        "level": 3
-      },
-      {
-        "heading": "Meetings",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "222-Aug-2022"
-      },
-      {
-        "link": "224-Aug-2022"
+        "link": "21-Aug-2022"
       }
     ]
   },
@@ -3544,11 +4709,83 @@
     ]
   },
   {
-    "fileName": "12-Sep-2022",
-    "relativePath": "Journal/12-Sep-2022.md",
+    "fileName": "15-Oct-2022",
+    "relativePath": "Journal/15-Oct-2022.md",
     "frontmatter": {
       "date": {
-        "{ date: 13-Sep-2022 }": null
+        "{ date: 16-Oct-2022 }": null
+      },
+      "exercise": 50,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 48
+        }
+      }
+    },
+    "links": [
+      {
+        "link": "journal",
+        "relativePath": "Zettelkasten/journal.md"
+      },
+      {
+        "link": "14-Oct-2022"
+      },
+      {
+        "link": "16-Oct-2022"
+      }
+    ]
+  },
+  {
+    "fileName": "15-Aug-2022",
+    "relativePath": "Journal/15-Aug-2022.md",
+    "headings": [
+      {
+        "heading": "What I appreciate today?",
+        "level": 2
+      },
+      {
+        "heading": "What moment of the day did I enjoy?",
+        "level": 2
+      },
+      {
+        "heading": "What I learned today?",
+        "level": 2
+      },
+      {
+        "heading": "Achievement of today?",
+        "level": 2
+      },
+      {
+        "heading": "How could I have connected more with someone?",
+        "level": 2
+      },
+      {
+        "heading": "What could I have done better?",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "14-Aug-2022"
+      },
+      {
+        "link": "16-Aug-2022"
+      }
+    ]
+  },
+  {
+    "fileName": "12-Oct-2022",
+    "relativePath": "Journal/12-Oct-2022.md",
+    "frontmatter": {
+      "date": {
+        "{ date: 13-Oct-2022 }": null
       },
       "position": {
         "start": {
@@ -3563,11 +4800,65 @@
         }
       }
     },
+    "headings": [
+      {
+        "heading": "What I appreciate today?",
+        "level": 2
+      },
+      {
+        "heading": "What moment of the day did I enjoy?",
+        "level": 2
+      },
+      {
+        "heading": "What I learned today?",
+        "level": 2
+      },
+      {
+        "heading": "Achievement of today?",
+        "level": 2
+      },
+      {
+        "heading": "What could I have done better?",
+        "level": 2
+      }
+    ],
     "links": [
       {
         "link": "journal",
         "relativePath": "Zettelkasten/journal.md"
       },
+      {
+        "link": "11-Oct-2022"
+      },
+      {
+        "link": "13-Oct-2022"
+      }
+    ]
+  },
+  {
+    "fileName": "12-09-2022",
+    "relativePath": "Journal/12-09-2022.md",
+    "tags": [
+      "journal"
+    ],
+    "frontmatter": {
+      "date": {
+        "{ date: 13-Sep-2022 }": null
+      },
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 51
+        }
+      }
+    },
+    "links": [
       {
         "link": "11-Sep-2022"
       },
@@ -3577,10 +4868,11 @@
     ]
   },
   {
-    "fileName": "06-Sep-2022",
-    "relativePath": "Journal/06-Sep-2022.md",
+    "fileName": "11-Aug-2022",
+    "relativePath": "Journal/11-Aug-2022.md",
     "frontmatter": {
-      "date": "06-09-2022",
+      "creation date": "2022-08-11 20:36",
+      "modification date": "Monday 6th December 2021 06:26:03",
       "position": {
         "start": {
           "line": 0,
@@ -3588,29 +4880,32 @@
           "offset": 0
         },
         "end": {
-          "line": 2,
+          "line": 3,
           "col": 3,
-          "offset": 25
+          "offset": 92
         }
       }
     },
-    "links": [
+    "headings": [
       {
-        "link": "journal",
-        "relativePath": "Zettelkasten/journal.md"
+        "heading": "Timelog",
+        "level": 2
       },
       {
-        "link": "07-09-2022"
+        "heading": "Reading",
+        "level": 3
       },
       {
-        "link": "08-09-2022"
+        "heading": "Meetings",
+        "level": 2
       }
     ],
-    "backlinks": [
+    "links": [
       {
-        "fileName": "07-Sep-2022",
-        "link": "06-Sep-2022",
-        "relativePath": "Journal/07-Sep-2022.md"
+        "link": "222-Aug-2022"
+      },
+      {
+        "link": "224-Aug-2022"
       }
     ]
   },
@@ -3675,8 +4970,57 @@
     ]
   },
   {
-    "fileName": "03-Aug-2022",
-    "relativePath": "Journal/03-Aug-2022.md",
+    "fileName": "06-Sep-2022",
+    "relativePath": "Journal/06-Sep-2022.md",
+    "frontmatter": {
+      "date": "06-09-2022",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 25
+        }
+      }
+    },
+    "links": [
+      {
+        "link": "journal",
+        "relativePath": "Zettelkasten/journal.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "07-Sep-2022",
+        "link": "06-Sep-2022",
+        "relativePath": "Journal/07-Sep-2022.md"
+      }
+    ]
+  },
+  {
+    "fileName": "05-Oct-2022",
+    "relativePath": "Journal/05-Oct-2022.md",
+    "frontmatter": {
+      "date": {
+        "{ date: 06-Oct-2022 }": null
+      },
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
     "headings": [
       {
         "heading": "What I appreciate today?",
@@ -3709,18 +5053,10 @@
         "relativePath": "Zettelkasten/journal.md"
       },
       {
-        "link": "02-Aug-2022"
+        "link": "04-Oct-2022"
       },
       {
-        "link": "04-Aug-2022",
-        "relativePath": "Journal/04-Aug-2022.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "04-Aug-2022",
-        "link": "03-Aug-2022",
-        "relativePath": "Journal/04-Aug-2022.md"
+        "link": "06-Oct-2022"
       }
     ]
   },
@@ -3775,8 +5111,8 @@
     ]
   },
   {
-    "fileName": "01-Aug-2022",
-    "relativePath": "Journal/01-Aug-2022.md",
+    "fileName": "03-Aug-2022",
+    "relativePath": "Journal/03-Aug-2022.md",
     "headings": [
       {
         "heading": "What I appreciate today?",
@@ -3809,18 +5145,18 @@
         "relativePath": "Zettelkasten/journal.md"
       },
       {
-        "link": "31-Jul-2022",
-        "relativePath": "Journal/31-Jul-2022.md"
+        "link": "02-Aug-2022"
       },
       {
-        "link": "02-Aug-2022"
+        "link": "04-Aug-2022",
+        "relativePath": "Journal/04-Aug-2022.md"
       }
     ],
     "backlinks": [
       {
-        "fileName": "31-Jul-2022",
-        "link": "01-Aug-2022",
-        "relativePath": "Journal/31-Jul-2022.md"
+        "fileName": "04-Aug-2022",
+        "link": "03-Aug-2022",
+        "relativePath": "Journal/04-Aug-2022.md"
       }
     ]
   },
@@ -3940,6 +5276,110 @@
     ]
   },
   {
+    "fileName": "01-Aug-2022",
+    "relativePath": "Journal/01-Aug-2022.md",
+    "headings": [
+      {
+        "heading": "What I appreciate today?",
+        "level": 2
+      },
+      {
+        "heading": "What moment of the day did I enjoy?",
+        "level": 2
+      },
+      {
+        "heading": "What I learned today?",
+        "level": 2
+      },
+      {
+        "heading": "Achievement of today?",
+        "level": 2
+      },
+      {
+        "heading": "How could I have connected more with someone?",
+        "level": 2
+      },
+      {
+        "heading": "What could I have done better?",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "journal",
+        "relativePath": "Zettelkasten/journal.md"
+      },
+      {
+        "link": "31-Jul-2022",
+        "relativePath": "Journal/31-Jul-2022.md"
+      },
+      {
+        "link": "02-Aug-2022"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "31-Jul-2022",
+        "link": "01-Aug-2022",
+        "relativePath": "Journal/31-Jul-2022.md"
+      }
+    ]
+  },
+  {
+    "fileName": "How to Win Friends and Influence People - Dale Carnegie",
+    "relativePath": "Kindle/How to Win Friends and Influence People - Dale Carnegie.md",
+    "frontmatter": {
+      "kindle-sync": {
+        "bookId": "63913",
+        "title": "How to Win Friends and Influence People",
+        "author": "Dale Carnegie",
+        "asin": "B0044XUINS",
+        "lastAnnotatedDate": "2022-10-22",
+        "bookImageUrl": "https://m.media-amazon.com/images/I/61EPlLcYvdS._SY160.jpg",
+        "highlightsCount": 130
+      },
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 9,
+          "col": 3,
+          "offset": 264
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "How to Win Friends and Influence People",
+        "level": 1
+      },
+      {
+        "heading": "Metadata",
+        "level": 2
+      },
+      {
+        "heading": "Highlights",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Dale Carnegie"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Bookshelve",
+        "link": "How to Win Friends and Influence People - Dale Carnegie",
+        "relativePath": "Zettelkasten/Bookshelve.md",
+        "displayText": "Kindle/How to Win Friends and Influence People - Dale Carnegie"
+      }
+    ]
+  },
+  {
     "fileName": "tech Wednesday 24-08-22.excalidraw",
     "relativePath": "Drawings/tech Wednesday 24-08-22.excalidraw.md",
     "tags": [
@@ -3976,36 +5416,8 @@
     ]
   },
   {
-    "fileName": "tech Tuesday 06-09-22.excalidraw",
-    "relativePath": "Dawings/tech Tuesday 06-09-22.excalidraw.md",
-    "tags": [
-      "excalidraw"
-    ],
-    "frontmatter": {
-      "excalidraw-plugin": "parsed",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 54
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Text Elements",
-        "level": 1
-      }
-    ]
-  },
-  {
     "fileName": "tech Monday 29-08-22.excalidraw",
-    "relativePath": "Dawings/tech Monday 29-08-22.excalidraw.md",
+    "relativePath": "Drawings/tech Monday 29-08-22.excalidraw.md",
     "tags": [
       "excalidraw"
     ],
@@ -4035,7 +5447,7 @@
         "fileName": "tech",
         "link": "tech Monday 29-08-22.excalidraw",
         "relativePath": "Zettelkasten/tech.md",
-        "displayText": "Dawings/tech Monday 29-08-22.excalidraw"
+        "displayText": "Drawings/tech Monday 29-08-22.excalidraw"
       }
     ]
   }

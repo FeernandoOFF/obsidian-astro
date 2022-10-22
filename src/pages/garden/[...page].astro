@@ -1,32 +1,25 @@
 ---
 import MarkdownIt from 'markdown-it';
 import wikiLinks from 'markdown-it-wikilinks';
+import copyCodeBlock from 'markdown-it-code-copy';
+import markdownItAnchor from 'markdown-it-anchor';
 import MainLayout from '../../layouts/MainLayout.astro';
 import markdownItAttrs from 'markdown-it-attrs';
 
-import { findInGraph, pagePath, urlParser } from '../../utils/pageFilters';
+import {
+  findInGraph,
+  getNodesFromLinks,
+  pagePath,
+  urlParser,
+} from '../../utils/pageFilters';
+import Graph from '../../components/Graph.svelte';
+import { Vault } from '../../utils/vault';
 
 export async function getStaticPaths() {
-  const posts = await Astro.glob('../../../content/**/*.md');
+  const notes = await Astro.glob('../../../content/**/*.md');
+  const vault = new Vault(notes);
 
-  //   TODO: CONFIG FILE
-  const filteredPosts = pagePath(posts, [
-    'Journal/',
-    'excalidraw.md',
-    'Files/',
-    'Drawings/',
-    'Dawings/',
-    'Templates/',
-  ]);
-
-  const pages = filteredPosts.map((page) => ({
-    page: page.parsedUrl == 'index' ? undefined : page.parsedUrl,
-    title: page.frontmatter.title,
-    text: page.rawContent(),
-    links: { ...findInGraph(page.unparsedURL) },
-  }));
-
-  return pages.map(({ page, title, text, links }) => {
+  return vault.filteredNotes.map(({ page, title, text, links }) => {
     return {
       params: { page },
       props: { title, text, links },
@@ -36,8 +29,14 @@ export async function getStaticPaths() {
 
 const { title, text, links } = Astro.props;
 
+const { nodes, nodeLinks } = getNodesFromLinks(
+  links.outGoingLinks,
+  links.backLinks
+);
+
 const wikiOptions = {
-  baseURL: '/Zettelkasten',
+  baseURL: '/garden/',
+  makeAllLinksAbsolute: true,
   uriSuffix: '/',
   htmlAttributes: {
     class: 'text-red-600',
@@ -49,45 +48,34 @@ const md = new MarkdownIt({
   breaks: true,
 })
   .use(wikiLinks(wikiOptions))
-  .use(markdownItAttrs);
+  .use(copyCodeBlock)
+  .use(markdownItAttrs)
+  .use(markdownItAnchor);
 
 let result = md.render(text);
 ---
 
-<MainLayout>
-  <h1>{title}</h1>
-  <div class="bg-gray-500" set:html={result}></div>
-  <div class="flex flex-col">
-    {
-      links.outGoingLinks?.map((l) => (
-        <a
-          class={`${l.relativePath ? 'text-green-400' : 'text-gray-400'}`}
-          href={'/garden/' + urlParser(l.relativePath)}
-        >
-          {l.link}
-        </a>
-      ))
-    }
-  </div>
-  <div class="flex flex-col">
-    {
-      links.backLinks?.map((l) => (
-        <a
-          class={`${l.relativePath ? 'text-red-400' : 'text-gray-400'}`}
-          href={'/garden/' + urlParser(l.relativePath)}
-        >
-          {l.relativePath}
-        </a>
-      ))
-    }
-  </div>
+<MainLayout title={title}>
+  <h1 class="text-3xl font-semibold">{title}</h1>
+  <div set:html={result}></div>
+  <Graph
+    nodes={nodes}
+    links={nodeLinks}
+    height={320}
+    width={320}
+    client:visible
+  />
 </MainLayout>
 
 <style is:global>
   h1,
   h2,
   h3 {
-    margin: 1rem;
+    margin: 2rem 0 0;
+    color: #b8c6e9;
+    font-size: 1.75rem;
+    cursor: pointer;
+    font: 600;
   }
   p {
     line-height: 1.5em;

@@ -84,7 +84,7 @@ This tools are not by themselves the actual thing that you will develop. But you
 - [[Electronics]] - Well... very self-explanatory this works with the bearer-metal important for IoT for example
 
 ![](Files/Pasted%20image%2020220829222230.png)
-![[Dawings/tech Monday 29-08-22.excalidraw]]
+![[Drawings/tech Monday 29-08-22.excalidraw]]
 
 
 **We also have Machine learning and data scientists....**

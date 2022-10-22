@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "My obsidian note-taking system"
-publishDate:  Thu 06-10-2022
+publishDate:  06-10-2022
 tags:
 - idea
 - productivity
@@ -26,6 +26,7 @@ tags:
 ---
 ## Plugins
 
+- Excalibrain
 - [[Obsidian Excalidraw Plugin]]
 	- Drawing Linking
 	- Drawing Libraries
@@ -35,6 +36,7 @@ tags:
 - [[Obsidian Templater]]
 - [[Obsidian Dataview]]
 - [[Kindle]]
+- Templater
 - Admonition
 
 
@@ -43,6 +45,26 @@ tags:
 - [[second brain]]
 - [[Digital garden]] 
 - [[Zettelkasten/Productivity with Obsidian| Productivity]]
+
+- Quick note capture
+- Daily Notes 
+	- Mood tracking
+	- Habit tracker
+- Random notes
+	- Improve relationships
+- Kanban - Things I need to process 
+	- Presentations
+	- Blogs
+	- Topics
+- Presentation
+- Kindle - Reader (insta paper)
+- Knowledge Explore
+- Visual notes
+- Audo note
+
+Excalibrain?? Explore
+
+Why do we stop taking notes when leaving school?
 
 
 

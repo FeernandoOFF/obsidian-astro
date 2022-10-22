@@ -1,5 +1,4 @@
 import * as d3 from 'd3';
-import { attr } from 'svelte/internal';
 // Copyright 2021 Observable, Inc.
 // Released under the ISC license.
 // https://observablehq.com/@d3/force-directed-graph
@@ -160,7 +159,6 @@ export function ForceGraph(
   }
   function drag(simulation) {
     function dragstarted(event) {
-      console.log(event);
       if (!event.active) simulation.alphaTarget(0.3).restart();
       event.subject.fx = event.subject.x;
       event.subject.fy = event.subject.y;

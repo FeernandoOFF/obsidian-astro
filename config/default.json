@@ -1,0 +1,51 @@
+{
+  "compiler": {
+    "relativeURLs": false,
+    "summaryLength": 20,
+    "ignoreFiles": [
+      "/content/templates/*",
+      "/content/private/*",
+      "/content/Journal/*",
+      "/content/Templates/*"
+    ]
+  },
+  "site": {
+    "googleAnalytics": "G-XYFD95KB4J",
+    "baseUrl": "https://garden.feernandooff.com",
+    "languageCode": "en",
+    "description": "Hey! You came across Fernando Obregon's digital garden take a look if you're interested on technology, traveling or productivity",
+    "page_title": "Feernandooff",
+    "links": [
+      {
+        "link_name": "Instagram",
+        "link": "https://www.instagram.com/feernandooff/"
+      },
+      { "link_name": "Github", "link": "https://github.com/FeernandoOFF/" }
+    ]
+  },
+
+  "localGraph": {
+    "enableLegend": false,
+    "enableDrag": true,
+    "enableZoom": true,
+    "depth": 1,
+    "scale": 1,
+    "repelForce": 7,
+    "centerForce": 1,
+    "linkDistance": 0,
+    "fontSize": 0.6,
+    "opacityScale": 2.5
+  },
+  "globalGraph": {
+    "enableLegend": false,
+    "enableDrag": true,
+    "enableZoom": true,
+    "depth": -1,
+    "scale": 1.4,
+    "repelForce": 1,
+    "centerForce": 1,
+    "linkDistance": 1,
+    "fontSize": 0.5,
+    "opacityScale": 3
+  }
+}

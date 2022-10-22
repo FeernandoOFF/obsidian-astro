@@ -35,7 +35,30 @@ export function findInGraph(pageName: string) {
   );
 
   return {
-    outGoingLinks: fileInfo.links,
-    backLinks: fileInfo.backlinks,
+    outGoingLinks: fileInfo?.links || [],
+    backLinks: fileInfo?.backlinks || [],
   };
+}
+
+type link = {
+  link: string;
+  fileName?: string;
+  relativePath?: string;
+  cleanLink?: string;
+  displayLink?: string;
+};
+
+export function getNodesFromLinks(links: link[], backLinks: link[]) {
+  const allLinks = [...links, ...backLinks];
+
+  const linkNodes = allLinks.map(
+    (link) => link.cleanLink || link.displayLink || link.link
+  );
+  const nodeLinks = allLinks.map((link) => ({
+    source: 'index',
+    target: link.cleanLink || link.displayLink || link.link,
+    value: 1,
+  }));
+
+  return { nodes: Array.from(new Set(linkNodes)), nodeLinks };
 }

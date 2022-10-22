@@ -1,11 +1,13 @@
 [
   {
     "tag": "moc",
-    "tagCount": 13,
+    "tagCount": 14,
     "relativePaths": [
-      "Zettelkasten/productivity.md",
+      "Zettelkasten/testnote.md",
       "Zettelkasten/tech.md",
+      "Zettelkasten/productivity.md",
       "Zettelkasten/journal.md",
+      "Zettelkasten/iOS.md",
       "Zettelkasten/history.md",
       "Zettelkasten/Minimalism.md",
       "Zettelkasten/English.md",
@@ -24,46 +26,60 @@
   },
   {
     "tag": "tech",
-    "tagCount": 5,
+    "tagCount": 9,
     "relativePaths": [
       "Zettelkasten/protocol.md",
+      "Zettelkasten/iOS.md",
+      "Zettelkasten/XCode.md",
+      "Zettelkasten/Swift.md",
       "Zettelkasten/UDP.md",
       "Zettelkasten/TCP.md",
       "Zettelkasten/Slowloris DDOS Attach.md",
+      "Zettelkasten/How does an app work.md",
       "Zettelkasten/HTTP.md"
     ]
   },
   {
     "tag": "idea",
-    "tagCount": 32,
+    "tagCount": 42,
     "relativePaths": [
       "Zettelkasten/protocol.md",
       "Zettelkasten/Why we don't have friends.md",
+      "Zettelkasten/XCode.md",
       "Zettelkasten/Web development.md",
+      "Zettelkasten/Swift.md",
+      "Zettelkasten/T knowledge.md",
       "Zettelkasten/UDP.md",
+      "Zettelkasten/Pronoun.md",
       "Zettelkasten/Tenses.md",
       "Zettelkasten/TCP.md",
       "Zettelkasten/Slowloris DDOS Attach.md",
-      "Zettelkasten/Friends.md",
       "Zettelkasten/Singleton.md",
-      "Zettelkasten/How to make friends.md",
-      "Zettelkasten/Pronoun.md",
+      "Zettelkasten/Programming on storyboard.md",
       "Zettelkasten/Productivity with Obsidian.md",
-      "Zettelkasten/Live your life with purpose.md",
-      "Zettelkasten/Preposition.md",
       "Zettelkasten/Poetry material.md",
-      "Zettelkasten/Parts of Speech.md",
+      "Zettelkasten/Preposition.md",
       "Zettelkasten/Odyssey.md",
-      "Zettelkasten/Noun.md",
+      "Zettelkasten/Obsidian relations.md",
+      "Zettelkasten/Parts of Speech.md",
+      "Zettelkasten/Obsidian Dataview.md",
       "Zettelkasten/Note taking Archetypes.md",
+      "Zettelkasten/Noun.md",
       "Zettelkasten/My problem with school.md",
-      "Zettelkasten/My Productivity System.md",
       "Zettelkasten/My IPhone Configuration.md",
+      "Zettelkasten/My obsidian setup.md",
+      "Zettelkasten/My Productivity System.md",
+      "Zettelkasten/Live your life with purpose.md",
       "Zettelkasten/Italy's history.md",
       "Zettelkasten/Ideal Weight.md",
+      "Zettelkasten/Friends.md",
+      "Zettelkasten/How to make friends.md",
+      "Zettelkasten/How does an app work.md",
       "Zettelkasten/HTTP.md",
-      "Zettelkasten/Define with kind of person you're.md",
       "Zettelkasten/First Indo-European Languages.md",
+      "Zettelkasten/Dopamine Detox.md",
+      "Zettelkasten/Define with kind of person you're.md",
+      "Zettelkasten/Conversation topics.md",
       "Zettelkasten/Collocations.md",
       "Zettelkasten/Apple Shortcuts.md",
       "Templates/Core Zettle Idea.md"
@@ -71,24 +87,38 @@
   },
   {
     "tag": "quote",
-    "tagCount": 10,
+    "tagCount": 12,
     "relativePaths": [
       "Zettelkasten/not all those who wonder are lost.md",
       "Zettelkasten/The benefits of a system don’t increase with his complexity.md",
       "Zettelkasten/People are more than their appearance.md",
+      "Zettelkasten/Creation is the human nature.md",
       "Templates/Quote Template.md",
+      "Quotes/Your brain is for creating ideas, not for holding tem.md",
       "Quotes/There's no such thing as Diciplines. Everything is the Universe.md",
+      "Quotes/The wrong way to organize information is by where you found it. The correct way is by the location you will use it.md",
       "Quotes/In life the goal is not to learn as much as possible, is to do as much as possible.md",
       "Quotes/If you only focus on connections that are already made you'll never create something new.md"
     ]
   },
   {
     "tag": "social",
-    "tagCount": 6,
+    "tagCount": 7,
     "relativePaths": [
       "Zettelkasten/Why we don't have friends.md",
       "Zettelkasten/Friends.md",
-      "Zettelkasten/How to make friends.md"
+      "Zettelkasten/How to make friends.md",
+      "Zettelkasten/Conversation topics.md"
+    ]
+  },
+  {
+    "tag": "ios",
+    "tagCount": 4,
+    "relativePaths": [
+      "Zettelkasten/XCode.md",
+      "Zettelkasten/Swift.md",
+      "Zettelkasten/Programming on storyboard.md",
+      "Zettelkasten/How does an app work.md"
     ]
   },
   {
@@ -107,6 +137,17 @@
     ]
   },
   {
+    "tag": "todo",
+    "tagCount": 5,
+    "relativePaths": [
+      "Zettelkasten/T knowledge.md",
+      "Zettelkasten/Slowloris DDOS Attach.md",
+      "Zettelkasten/Note taking Archetypes.md",
+      "Zettelkasten/My problem with school.md",
+      "Zettelkasten/HTTP.md"
+    ]
+  },
+  {
     "tag": "basics",
     "tagCount": 2,
     "relativePaths": [
@@ -122,13 +163,18 @@
     ]
   },
   {
-    "tag": "todo",
-    "tagCount": 4,
+    "tag": "pkm",
+    "tagCount": 2,
     "relativePaths": [
-      "Zettelkasten/Slowloris DDOS Attach.md",
-      "Zettelkasten/Note taking Archetypes.md",
-      "Zettelkasten/My problem with school.md",
-      "Zettelkasten/HTTP.md"
+      "Zettelkasten/Obsidian as a Journal.md",
+      "Zettelkasten/Obsidian.md"
+    ]
+  },
+  {
+    "tag": "storyboard",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/Programming on storyboard.md"
     ]
   },
   {
@@ -139,10 +185,39 @@
     ]
   },
   {
+    "tag": "obsidian",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/Obsidian.md"
+    ]
+  },
+  {
     "tag": "minimalism",
     "tagCount": 1,
     "relativePaths": [
       "Zettelkasten/Minimalism.md"
+    ]
+  },
+  {
+    "tag": "productivity",
+    "tagCount": 2,
+    "relativePaths": [
+      "Zettelkasten/My obsidian setup.md",
+      "Zettelkasten/Dopamine Detox.md"
+    ]
+  },
+  {
+    "tag": "productity",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/My Productivity System.md"
+    ]
+  },
+  {
+    "tag": "personal",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/My Productivity System.md"
     ]
   },
   {
@@ -151,13 +226,6 @@
     "relativePaths": [
       "Zettelkasten/Italy's history.md",
       "Zettelkasten/First Indo-European Languages.md"
-    ]
-  },
-  {
-    "tag": "testtag",
-    "tagCount": 1,
-    "relativePaths": [
-      "Zettelkasten/Italy's history.md"
     ]
   },
   {
@@ -175,12 +243,26 @@
     ]
   },
   {
+    "tag": "admin",
+    "tagCount": 1,
+    "relativePaths": [
+      "Zettelkasten/Dashboard.md"
+    ]
+  },
+  {
+    "tag": "journal",
+    "tagCount": 2,
+    "relativePaths": [
+      "Templates/Journal-template.md",
+      "Journal/12-09-2022.md"
+    ]
+  },
+  {
     "tag": "excalidraw",
-    "tagCount": 3,
+    "tagCount": 2,
     "relativePaths": [
       "Drawings/tech Wednesday 24-08-22.excalidraw.md",
-      "Dawings/tech Tuesday 06-09-22.excalidraw.md",
-      "Dawings/tech Monday 29-08-22.excalidraw.md"
+      "Drawings/tech Monday 29-08-22.excalidraw.md"
     ]
   }
 ]

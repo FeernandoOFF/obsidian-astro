@@ -1,10 +1,15 @@
 ---
-date: {{date: DD-MM-YYYY}}
-tags:
-	- journal
+fc-calendar: Obsidian Calendar
+fc-date: <% tp.date.now("DD-MM-YYYY") %>
+fc-category: Journal
+tags: journal
+habit: 
+mood: 
+summary:
 ---
 
+<< [[<%  tp.date.yesterday("DD-MM-YYYY") %>]] - [[<%  tp.date.tomorrow("DD-MM-YYYY") %>]] >>
 
-<< [[{{date: DD-MM-YYYY}}]] || [[{{date: DD-MM-YYYY}}]] >>
+
 
 Daily note:

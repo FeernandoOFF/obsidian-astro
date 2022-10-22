@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Obsidian as a Journal"
-publishDate:  Thu 20-10-2022
+publishDate:  20-10-2022
 lang: en
 tags:
 - PKM

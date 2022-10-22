@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "810c27d805525246",
+        "id": "209d886f6438eb56",
         "type": "tabs",
         "children": [
           {
-            "id": "d01234e410b18cbd",
+            "id": "ce24264bccb48d21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Obsidian.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ec66eda4a092f0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Obsidian relations.md",
+                "file": "Zettelkasten/Obsidian as a Journal.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +50,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Obsidian relations.md",
+                "file": "Zettelkasten/Obsidian as a Journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Obsidian relations.md",
+                "file": "Zettelkasten/Obsidian as a Journal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettelkasten/Obsidian relations.md"
+                "file": "Zettelkasten/Obsidian as a Journal.md"
               }
             }
           },
@@ -167,8 +153,17 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "13be22bf1859332a",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -178,17 +173,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7ec66eda4a092f0e",
+  "active": "ce24264bccb48d21",
   "lastOpenFiles": [
-    "_index.md",
-    "Zettelkasten/tech.md",
-    "Zettelkasten/Obsidian relations.md",
-    "Zettelkasten/Obsidian.md",
-    "Quotes/The wrong way to organize information is by where you found it. The correct way is by the location you will use it.md",
     "Zettelkasten/My obsidian setup.md",
+    "Zettelkasten/Project management.md",
+    "Kanban/Obsidian Setup.md",
     "Templates/Core Zettle Idea.md",
-    "Zettelkasten/My Productivity System.md",
-    "Zettelkasten/Productivity with Obsidian.md",
-    "Zettelkasten/productivity.md"
+    "Zettelkasten/testnote.md",
+    "Templates/MOC.md",
+    "Templates/Book template.md",
+    "Templates/Journal-template.md",
+    "Templates/Quote Template.md",
+    "Zettelkasten/<%  tp.date.yesterday(\"DD-MM-YYYY\") %>.md"
   ]
 }

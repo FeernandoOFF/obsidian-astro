@@ -1,21 +1,27 @@
 <script>
-  export let width = 500;
-  export let height = 500;
-
   import { ForceGraph } from '../utils/forceGraph';
   import * as miserables from '../miserables.json';
   import { onMount } from 'svelte';
 
+  export let width = 500;
+  export let height = 500;
+  export let nodes;
+  export let links;
+
   onMount(() => {
-    const chart = ForceGraph(miserables.default, {
-      nodeId: (d) => d.id,
-      nodeGroup: (d) => d.group,
-      nodeTitle: (d) => `${d.id}\n${d.group}`,
-      linkStrokeWidth: (l) => Math.sqrt(l.value),
-      activeNode: 'Napoleon',
-      width,
-      height,
-    });
+    const chart = ForceGraph(
+      { nodes, links },
+      {
+        nodeId: (d) => d,
+        // nodeGroup: (d) => d.group,
+        nodeTitle: (d) => `${d}`,
+        linkStrokeWidth: (l) => Math.sqrt(l.value),
+        activeNode: 'Napoleon',
+        width,
+        height,
+      }
+    );
+
     const div = document.querySelector('#network');
     div.appendChild(chart);
   });

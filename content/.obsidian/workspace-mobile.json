@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kindle/Carnegie-How to Win Friends and Influence People.md",
+                "file": "Kindle/How to Win Friends and Influence People-Dale Carnegie.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -45,7 +45,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "How to win fri",
+            "query": "How to win frie",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -94,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Kindle/Carnegie-How to Win Friends and Influence People.md",
+            "file": "Kindle/How to Win Friends and Influence People-Dale Carnegie.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Kindle/Carnegie-How to Win Friends and Influence People.md",
+            "file": "Kindle/How to Win Friends and Influence People-Dale Carnegie.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,7 +123,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Kindle/Carnegie-How to Win Friends and Influence People.md"
+            "file": "Kindle/How to Win Friends and Influence People-Dale Carnegie.md"
           }
         }
       },
@@ -134,24 +134,32 @@
           "type": "todo",
           "state": {}
         }
+      },
+      {
+        "id": "32d857b51c918b9d",
+        "type": "leaf",
+        "state": {
+          "type": "FANTASY_CALENDAR",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
   "active": "b6a1809248613397",
   "lastOpenFiles": [
+    "Zettelkasten/Project management.md",
+    "Journal/22-Oct-2022.md",
+    "Kindle/Carnegie-How to Win Friends and Influence People.md",
     "Zettelkasten/Poetry material.md",
     "Journal/15-Oct-2022.md",
     "Zettelkasten/Swift.md",
     "Zettelkasten/Programming on storyboard.md",
     "Zettelkasten/XCode.md",
     "Zettelkasten/iOS.md",
-    "Zettelkasten/Conversation topics.md",
-    "Zettelkasten/How to make friends.md",
-    "Journal/12-Oct-2022.md",
-    "Zettelkasten/How does an app work.md"
+    "Zettelkasten/Conversation topics.md"
   ]
 }

@@ -1,12 +1,15 @@
 ---
 draft: false
-title: "{{Title}}"
-publishDate: {{date: ddd DD-MM-YYYY}}
+title: <% tp.file.title %>
+publishDate: <%  tp.date.now("DD-MM-YYYY") %>
 lang: en
 tags:
 - idea
 ---
-# {{Title}}
 
+# <% tp.file.title %>
+
+
+<% tp.file.cursor() %>
 
 ## References

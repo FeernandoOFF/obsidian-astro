@@ -4,15 +4,14 @@ kindle-sync:
   title: How to Win Friends and Influence People
   author: Dale Carnegie
   asin: B0044XUINS
-  lastAnnotatedDate: '2022-10-21'
+  lastAnnotatedDate: '2022-10-22'
   bookImageUrl: 'https://m.media-amazon.com/images/I/61EPlLcYvdS._SY160.jpg'
   highlightsCount: 130
 ---
 # How to Win Friends and Influence People
 ## Metadata
-* Author: [Dale Carnegie](https://www.amazon.com/Dale-Carnegie/e/B00OIFV2S2/ref=dp_byline_cont_ebooks_1)
+* Author: [[Dale Carnegie]]
 * ASIN: B0044XUINS
-* ISBN: 0091906814
 * Reference: https://www.amazon.com/dp/B0044XUINS
 * [Kindle link](kindle://book?action=open&asin=B0044XUINS)
 
@@ -380,7 +379,6 @@ an increased tendency to think always in terms of other people’s point of view
 Summary
 
 ---
-
 ‘hearty in his approbation and lavish in his praise.’ — location: [1047](kindle://book?action=open&asin=B0044XUINS&location=1047) ^ref-36313
 
 ---
