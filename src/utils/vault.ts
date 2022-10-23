@@ -7,7 +7,7 @@ type link = {
   fileName?: string;
   relativePath?: string;
   cleanLink?: string;
-  displayLink?: string;
+  displayText?: string;
 };
 
 export class Vault {
@@ -45,11 +45,19 @@ export class Vault {
     // Append Page metadata
     const pagesWithContent = filteredPages.map((page) => {
       if (!page.frontmatter) return;
+      const links = { ...this.findInGraph(page.unparsedURL) };
       return {
         page: page.parsedUrl == 'index' ? undefined : page.parsedUrl,
         title: page.frontmatter.title,
         text: page.rawContent(),
-        links: { ...this.findInGraph(page.unparsedURL) },
+        links,
+        graphConnections: {
+          ...this.getNodesFromLinks(
+            links.outGoingLinks,
+            links.backLinks,
+            page.parsedUrl
+          ),
+        },
       };
     });
 
@@ -73,18 +81,20 @@ export class Vault {
     };
   }
 
-  getNodesFromLinks(links: link[], backLinks: link[]) {
+  getNodesFromLinks(links: link[], backLinks: link[], currentPage: string) {
     const allLinks = [...links, ...backLinks];
 
-    const linkNodes = allLinks.map(
-      (link) => link.cleanLink || link.displayLink || link.link
-    );
+    const linkNodes = allLinks.map((link) => ({
+      id: link.relativePath,
+      title: link.fileName,
+    }));
     const nodeLinks = allLinks.map((link) => ({
-      source: 'index',
-      target: link.cleanLink || link.displayLink || link.link,
+      source: currentPage,
+      target: link.relativePath,
       value: 1,
     }));
 
-    return { nodes: Array.from(new Set(linkNodes)), nodeLinks };
+    linkNodes.push({ id: currentPage, title: 'Current' });
+    return { nodes: linkNodes, links: nodeLinks };
   }
 }

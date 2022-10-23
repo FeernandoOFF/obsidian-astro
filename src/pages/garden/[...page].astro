@@ -6,12 +6,6 @@ import markdownItAnchor from 'markdown-it-anchor';
 import MainLayout from '../../layouts/MainLayout.astro';
 import markdownItAttrs from 'markdown-it-attrs';
 
-import {
-  findInGraph,
-  getNodesFromLinks,
-  pagePath,
-  urlParser,
-} from '../../utils/pageFilters';
 import Graph from '../../components/Graph.svelte';
 import { Vault } from '../../utils/vault';
 
@@ -19,20 +13,17 @@ export async function getStaticPaths() {
   const notes = await Astro.glob('../../../content/**/*.md');
   const vault = new Vault(notes);
 
-  return vault.filteredNotes.map(({ page, title, text, links }) => {
-    return {
-      params: { page },
-      props: { title, text, links },
-    };
-  });
+  return vault.filteredNotes.map(
+    ({ page, title, text, links, graphConnections }) => {
+      return {
+        params: { page },
+        props: { title, text, links, graphConnections },
+      };
+    }
+  );
 }
 
-const { title, text, links } = Astro.props;
-
-const { nodes, nodeLinks } = getNodesFromLinks(
-  links.outGoingLinks,
-  links.backLinks
-);
+const { title, text, links, graphConnections } = Astro.props;
 
 const wikiOptions = {
   baseURL: '/garden/',
@@ -59,8 +50,8 @@ let result = md.render(text);
   <h1 class="text-3xl font-semibold">{title}</h1>
   <div set:html={result}></div>
   <Graph
-    nodes={nodes}
-    links={nodeLinks}
+    nodes={graphConnections.nodes}
+    links={graphConnections.links}
     height={320}
     width={320}
     client:visible

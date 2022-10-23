@@ -12,9 +12,9 @@
     const chart = ForceGraph(
       { nodes, links },
       {
-        nodeId: (d) => d,
+        nodeId: (d) => d.id,
         // nodeGroup: (d) => d.group,
-        nodeTitle: (d) => `${d}`,
+        nodeTitle: (d) => `${d.title}`,
         linkStrokeWidth: (l) => Math.sqrt(l.value),
         activeNode: 'Napoleon',
         width,
