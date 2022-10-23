@@ -84,17 +84,19 @@ export class Vault {
   getNodesFromLinks(links: link[], backLinks: link[], currentPage: string) {
     const allLinks = [...links, ...backLinks];
 
+    console.log(allLinks);
     const linkNodes = allLinks.map((link) => ({
-      id: link.relativePath,
-      title: link.fileName,
+      id: link.relativePath || link.link,
+      title: link.fileName || link.link,
+      url: link.link,
     }));
     const nodeLinks = allLinks.map((link) => ({
       source: currentPage,
-      target: link.relativePath,
+      target: link.relativePath || link.link,
       value: 1,
     }));
 
-    linkNodes.push({ id: currentPage, title: 'Current' });
+    linkNodes.push({ id: currentPage, title: 'Current', url: currentPage });
     return { nodes: linkNodes, links: nodeLinks };
   }
 }
